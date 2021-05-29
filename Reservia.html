@@ -9,13 +9,11 @@
     <body>
         <!-- Header -->
         <header>
-            <img src="images/logo/Reservia.svg"/> <!-- Logo Reservia -->
-            <div id="Menu"> <!-- Menu vers ancres -->
-                <ul>
-                    <li><a href="#Hebergements">Hebergements</a></li>
-                    <li><a href="#Activites">Activités</a></li>
-                    <li><a href="inscription.html">S'inscrire</a></li>
-                </ul>
+            <div class="logo"><img src="images/logo/Reservia.svg"/></div> <!-- Logo Reservia -->
+            <div id="menu"> <!-- Menu vers ancres -->
+                    <div class="element"><a href="#Hebergements">Hebergements</a></div>
+                    <div class="element"><a href="#Activites">Activités</a></div>
+                    <div class="element"><a href="inscription.html">S'inscrire</a></div>
             </div>
             <div id="Recherche">
                 <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -30,8 +28,8 @@
                 </form>
             </div>
             <div id="filtres"> <!-- Filtres -->
-                <h3>Filtres</h3>
                 <ul>
+                    <li><h3 class="bouton">Filtres</h3></li>
                     <li><i class="fas fa-money-bill-wave"></i><input type="button" class="bouton" value="Economique" :focus /></li>
                     <li><i class="fas fa-child"></i><input type="button" class="bouton" value="Familial" :focus /></li>
                     <li><i class="fas fa-heart"></i><input type="button" class="bouton" value="Romantique" :focus /></li>
@@ -46,7 +44,7 @@
             <h1 id="Hebergements">Hebergements à Marseille</h1> <!-- Ancre vers section 1 Hebergements-->
 
         </section>
-
+        <!-- Section 2 Les plus populaires -->
         <section id="conteneur2">
             <h1>Les plus populaires<i class="fas fa-chart-line"></i></h1> <!-- Titre section 2 + logo chart -->
 
