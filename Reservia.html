@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet"href="Reservia.css"/>
+        <script src="https://kit.fontawesome.com/4eebba87fa.js" crossorigin="anonymous"></script>
         <title></title>
     </head>
     <body>
         <!-- Header -->
         <header>
-            <img src="images/logo/Reservia@3x.png"/> <!-- Logo Reservia -->
+            <img src="images/logo/Reservia.svg"/> <!-- Logo Reservia -->
             <div id="Menu"> <!-- Menu vers ancres -->
                 <ul>
                     <li><a href="#Hebergements">Hebergements</a></li>
@@ -20,6 +21,13 @@
                 <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <!-- Barre de recherche et bouton -->
+                <form method="post" action="traitement.php">
+                    <p> 
+                        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label> <!-- Logo localisation -->
+                        <input type="search" name="recherche" id="recherche" placeholder="Marseille,France" size="30" maxlength="30" /> <!-- Champ de recherche -->
+                        <input type="button" id="bouton" value="Rechercher" /> <!-- Bouton -->
+                    </p>
+                </form>
             </div>
             <div id="filtres"> <!-- Filtres -->
                 <h3>Filtres</h3>
