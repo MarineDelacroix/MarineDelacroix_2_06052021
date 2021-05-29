@@ -1,3 +1,36 @@
+
+
+
+
+
+
+
+
+
 .bouton:hover{
 background-color: #0065FC;
 }
+a{
+    text-decoration:none;
+}
+a:hover{
+   text-decoration: overline;
+   color:#0065FC 
+}
+ul{
+    list-style-type: none;
+}
+#menu{
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+
