@@ -4,14 +4,10 @@
 }
 body{
     font-family: "Raleway";
+    margin:5% 5% 5% 5%;
 }
 .bouton:hover{
 background-color: #0065FC;
-}
-ul i{
-    color:#0065FC;
-    background-color: #F2F2F2;
-    border: 50px 50px 50px 50px solid white;
 }
 a{
     text-decoration:none;
@@ -19,9 +15,6 @@ a{
 a:hover{
    text-decoration: overline;
    color:#0065FC 
-}
-ul{
-    list-style-type: none;
 }
 #menu{
     display:flex;
@@ -35,16 +28,16 @@ ul{
 .element0:nth-child(2){
     justify-self: flex-end;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    align-items:baseline;
-    justify-content: flex-start;
-}
 #filtres{
     display:flex;
     justify-content:space-between;
-    align-items: flex-start;
+    align-items:baseline;
+    width:50%;
+}
+.bouton{
+    background-color: white;
+    border:2px solid #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
 }
 #conteneur1{
     display:flex;
@@ -167,6 +160,7 @@ ul{
     text-align:end;
     text-align:start;
     background-clip:text;
+    justify-content: flex-start;
 }
 .element1:nth-child(2){
     background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
@@ -190,36 +184,74 @@ ul{
     justify-content: center;
     margin-top:5%;
     text-align: bottom;
+    height: 550px;
 }
 .vieuxport{
+    background-image: url("images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    display:flex;
+    flex-direction: column;
+    background-clip:text;
+    text-align:justify
     border:2px solid blue;
     height:208px;
     width:100%;
     margin:2px 2px 2px 2px;
 }
 .fortpomegues{
+    background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction: column;
+    background-clip:text;
+    text-align:justify
     border:2px solid blue;
     height:100px;
     margin:2px 2px 2px 2px;
 }
 .ilesfrioul{
+    background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction: column;
+    background-clip:text;
+    text-align:justify
     border:2px solid blue;
     height:100px;
     margin-top:2%;
     margin:2px 2px 2px 2px;
 }
 .parccalanques{
+    background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction: column;
+    background-clip:text;
+    text-align:justify
     border:2px solid blue;
     height:208px;
     width:100%;
     margin:2px 2px 2px 2px;
 }
 .notredame{
+    background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction: column;
+    background-clip:text;
+    text-align:justify
     border:2px solid blue;
     height:100px;
     margin:2px 2px 2px 2px;
 }
 .longchamp{
+    background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction: column;
+    background-clip:text;
+    text-align:justify
     border:2px solid blue;
     height:100px;
     margin:2px 2px 2px 2px;
@@ -241,7 +273,10 @@ h2{
     margin-top: auto;
     background-color: white;
 }
+.prix{
+    background-color: #F2F2F2;
 }
+
 
 
 
