@@ -150,27 +150,28 @@ a:hover{
     width:70%;
     height:25%;
     text-align: bottom;
+    border-radius:15px 15px 15px 15px;
 }
-.element1:nth-child(1){
+.element1:nth-child(2){
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 45%;
     display:flex;
     flex-direction: column;
     text-align:end;
     text-align:start;
-    background-clip:text;
     justify-content: flex-start;
 }
-.element1:nth-child(2){
+.element1:nth-child(3){
     background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-repeat:no-repeat;
     display:flex;
     flex-direction: column;
     background-clip:text;
     text-align:justify
+    
 }
-.element1:nth-child(3){
+.element1:nth-child(4){
     background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-repeat: no-repeat;
     display:flex;
@@ -276,7 +277,11 @@ h2{
 .prix{
     background-color: #F2F2F2;
 }
+#filtres i{
+    color:#0065FC;
+    border:15px 15px 15px 15px solid #F2F2F2;
 
+}
 
 
 
