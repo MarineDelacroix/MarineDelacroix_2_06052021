@@ -27,6 +27,7 @@ a:hover{
 }
 .element0:nth-child(2){
     justify-self: flex-end;
+    
 }
 #filtres{
     display:flex;
@@ -62,13 +63,15 @@ a:hover{
 }
 .element{
     width:25%;
-    border:2px solid white;
+    border:5px solid white;
     margin-top: 1%;
     margin-bottom: 1%;
     text-align:initial;
     height:200px;
     border-radius: 15px 15px 15px 15px;
     align-items:baseline;
+    background-color: white;
+    padding-bottom:4%;
 }
 .element:nth-child(1){
     background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -273,9 +276,13 @@ h2{
     position:relative;
     margin-top: auto;
     background-color: white;
+    vertical-align: bottom;
+    margin-top:70%;
+    margin-bottom:0%;
 }
 .prix{
-    background-color: #F2F2F2;
+    background-color: white;
+    margin-top: 0%;
 }
 #filtres i{
     color:#0065FC;
