@@ -228,10 +228,10 @@ a:hover{
     flex-direction: column;
     background-clip:text;
     text-align:justify
-    border:2px solid blue;
-    height:100px;
-    margin-top:2%;
-    margin:2px 2px 2px 2px;
+    border: 2px solid blue;
+    height: 100px;
+    margin-top: 2%;
+    margin: 2px 2px 2px 2px;
 }
 .parccalanques{
     background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
@@ -240,10 +240,10 @@ a:hover{
     flex-direction: column;
     background-clip:text;
     text-align:justify
-    border:2px solid blue;
-    height:208px;
-    width:100%;
-    margin:2px 2px 2px 2px;
+    border: 2px solid blue;
+    height: 208px;
+    width: 100%;
+    margin: 2px 2px 2px 2px;
 }
 .notredame{
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
@@ -252,9 +252,9 @@ a:hover{
     flex-direction: column;
     background-clip:text;
     text-align:justify
-    border:2px solid blue;
-    height:100px;
-    margin:2px 2px 2px 2px;
+    border: 2px solid blue;
+    height: 100px;
+    margin: 2px 2px 2px 2px;
 }
 .longchamp{
     background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
@@ -263,9 +263,9 @@ a:hover{
     flex-direction: column;
     background-clip:text;
     text-align:justify
-    border:2px solid blue;
-    height:100px;
-    margin:2px 2px 2px 2px;
+    border: 2px solid blue;
+    height: 100px;
+    margin: 2px 2px 2px 2px;
 }
 .colonne1{
     display:flex;
@@ -284,7 +284,7 @@ h2{
     margin-top: auto;
     background-color: white;
     vertical-align: bottom;
-    margin-top:70%;
+    margin-top:52%;
     margin-bottom:0%;
 }
 .prix{
