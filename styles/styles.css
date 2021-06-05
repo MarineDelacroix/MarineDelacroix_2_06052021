@@ -27,7 +27,7 @@ a:hover{
 }
 .element0:nth-child(2){
     justify-self: flex-end;
-    
+
 }
 #filtres{
     display:flex;
@@ -62,42 +62,46 @@ a:hover{
     border-radius: 15px 15px 15px 15px;
 }
 .element{
-    width:25%;
+    display:flex;
+    width:26%;
     border:5px solid white;
     margin-top: 1%;
     margin-bottom: 1%;
+    margin-left:1%;
     text-align:initial;
-    height:200px;
+    height:100px;
     border-radius: 15px 15px 15px 15px;
-    align-items:baseline;
+    align-items:flex-start;
     background-color: white;
-    padding-bottom:4%;
+    padding-bottom:100px;
+    justify-content: space-between;
+    text-align: justify;
 }
 .element:nth-child(1){
     background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
     background-position: top;
-    background-clip:text;
+    background-clip:border-box;
     text-align:start;
     display:flex;
     flex-direction: column;
-    text-align:end;
 }
 .element:nth-child(2){
     background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
-    text-align:end;
     text-align:start;
     background-clip:text;
+    background-position: top;
 }
 .element:nth-child(3){
     background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
+    background-position: top;
     display:flex;
     flex-direction: column;
     text-align:end;
@@ -106,33 +110,36 @@ a:hover{
 }
 .element:nth-child(4){
     background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
+    background-position: relative;
     display:flex;
     flex-direction: column;
-    text-align:end;
-    text-align:start;
-    background-clip:text;
+    margin-left:3%;
 }
 .element:nth-child(5){
     background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-size: 120%;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
     display:flex;
     flex-direction: column;
     text-align:end;
     text-align:start;
-    background-clip:text;
+    background-clip:border-box;
+    margin-left:4%;
 }
 .element:nth-child(6){
-    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-size: 100%;
+    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-modifunsplash.jpg");
+    background-size: 100% 70%;
+    background-position: top;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
     text-align:end;
     text-align:start;
-    background-clip:text;
+    margin-left:5%;
 }
 
 .conteneur3{
