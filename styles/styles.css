@@ -64,13 +64,20 @@ a:hover{
     justify-content: flex-start;
     width: 45%;
     height:50px;
-    border:none;
 }
 .localisation{
     display:flex;
 }
+.logoloc{
+    height:20px;
+    background-color:#F2F2F2;
+    padding:3% 3% 3% 3%;
+    border-radius:15px 0px 0px 15px;
+}
 #recherche{
-    border:none;
+    border:2px solid #F2F2F2;
+    font-size: 2em;
+    font-weight: medium;
 }
 #bouton{
     background-color: #0065FC;
@@ -104,15 +111,25 @@ a:hover{
     display:flex;
     width:25%;
     border:5px solid white;
-    text-align:initial;
-    height:100px;
+    height:250px;
     border-radius: 15px 15px 15px 15px;
-    align-items:flex-start;
     background-color: white;
-    padding-bottom:100px;
-    justify-content: space-between;
-    text-align: justify;
-    margin-top:1%;
+    align-content:inherit;
+    border-collapse: collapse;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+.heb{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    height:40%;
+    max-width:100%;
+    margin-bottom: 0px;
+    align-items:flex-start;
+    flex-wrap:nowrap;
+    position:relative;
 }
 .titresection{
     position:absolute;
@@ -126,38 +143,34 @@ a:hover{
 }
 .element:nth-child(1){
     background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-size: 100% 70%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     background-clip:border-box;
-    text-align:start;
     display:flex;
     flex-direction: column;
 }
 .element:nth-child(2){
     background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-size: 100% 70%;
+    background-size: cover;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
-    text-align:start;
     background-clip:text;
     background-position: top;
 }
 .element:nth-child(3){
     background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-size: 100% 70%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     display:flex;
     flex-direction: column;
-    text-align:end;
-    text-align:start;
     background-clip:text;
 }
 .element:nth-child(4){
     background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-size: 100% 70%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: relative;
     display:flex;
@@ -165,25 +178,21 @@ a:hover{
 }
 .element:nth-child(5){
     background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-size: 100% 70%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     max-width: 100%;
     display:flex;
     flex-direction: column;
-    text-align:end;
-    text-align:start;
     background-clip:border-box;
 }
 .element:nth-child(6){
-    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-modifunsplash.jpg");
-    background-size: 100% 70%;
+    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
-    text-align:end;
-    text-align:start;
 }
 
 .conteneur3{
@@ -271,7 +280,7 @@ a:hover{
 .vieuxport{
     background-image: url("images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-repeat:no-repeat;
-    background-size: 170%;
+    background-size:cover;
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -284,19 +293,21 @@ a:hover{
 .fortpomegues{
     background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-repeat:no-repeat;
-    background-size:50%;
+    background-size:cover;
     display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-content:center;
+    align-items: flex-end;
     border-radius:15px 15px 15px 15px;
     height:200px;
     margin:15px 15px 15px 15px;
     box-shadow: 0px 15px 15px 0 #F2F2F2;
+    background-position:50%;
 }
 .ilesfrioul{
     background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:cover;
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -309,7 +320,7 @@ a:hover{
 .parccalanques{
     background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-repeat:no-repeat;
-    background-size:160%;
+    background-size:cover;
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -323,7 +334,7 @@ a:hover{
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-repeat:no-repeat;
     background-position: relative;
-    background-size:100%;
+    background-size:cover;
     display:flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -336,7 +347,7 @@ a:hover{
     background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-repeat:no-repeat;
     display:flex;
-    background-size:100%;
+    background-size:cover;
     justify-content: flex-end;
     flex-direction: column;
     border-radius:15px 15px 15px 15px;
@@ -361,8 +372,6 @@ h2{
     margin-top: auto;
     background-color: white;
     vertical-align: bottom;
-    margin-top:53%;
-    margin-bottom:0%;
 }
 .prix{
     background-color: white;
