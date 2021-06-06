@@ -6,6 +6,10 @@ body{
     font-family: "Raleway";
     margin:5% 5% 5% 5%;
 }
+h1{
+    font-weight: 900px;;
+    font-size: 2.2em;
+}
 .bouton:hover{
 background-color: #0065FC;
 }
@@ -20,6 +24,8 @@ a:hover{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    font-size:1.2em;
+    font-weight:bold;
 }
 .element0:nth-child(1){
     justify-self:flex-start;
@@ -34,11 +40,14 @@ a:hover{
     justify-content:space-between;
     align-items:baseline;
     width:50%;
+    font-size:1.2em;
 }
 .bouton{
     background-color: white;
     border:2px solid #F2F2F2;
     border-radius: 15px 15px 15px 15px;
+    font-size:1.2em;
+    font-weight:600;
 }
 .formulaire{
     display:flex;
@@ -179,6 +188,11 @@ a:hover{
     border-radius:15px 15px 15px 15px;
     background-color: white;
     overflow: hidden;
+}
+.element1:nth-child(1){
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .element1:nth-child(2){
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -329,11 +343,29 @@ h2{
 .prix{
     background-color: white;
     margin-top: 0%;
+    font-size:1em;
 }
 #filtres i{
     color:#0065FC;
     border:15px 15px 15px 15px solid #F2F2F2;
 
+}
+ul{
+    list-style-type:none;
+}
+#footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:stretch;
+    max-width:70%;
+    height:200px;
+    margin-top:10%;
+    font-size: 1.2em;
+    margin-left:0px;
+}
+h4{
+    font-weight: bold;
 }
 
 
