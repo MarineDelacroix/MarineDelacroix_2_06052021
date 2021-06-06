@@ -56,7 +56,7 @@ a:hover{
 }
 .conteneur2{
     width:65%;
-    height:630px;
+    height:530px;
     border:2px solid white;
     display:flex;
     flex-direction: row;
@@ -167,128 +167,151 @@ a:hover{
 .element1{
     display:flex;
     flex-direction:row;
-    padding-right:60%;
     border:2px solid white;
     margin-top: 5%;
     margin-bottom: 5%;
     max-width:70%;
-    max-height:25%;
+    min-width: 70%;
+    max-height:145px;
+    min-height:145px;
     text-align:end;
+    border:5px solid white;
     border-radius:15px 15px 15px 15px;
+    background-color: white;
+    overflow: hidden;
 }
 .element1:nth-child(2){
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 60%;
     display:flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: stretch;
-    text-align:end;
-    text-align:start;
-    justify-content: flex-start;
+    background-position:relative;
 }
 .element1:nth-child(3){
     background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-repeat:no-repeat;
+    background-size: 60%;
     display:flex;
-    flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    
+    flex-direction: row;
+    background-clip:content-box;
+    text-align:justify;
+    background-position: relative;
 }
 .element1:nth-child(4){
     background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-repeat: no-repeat;
+    background-size: 35%;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     text-align:end;
     background-clip:text;
+    background-position: relative;
+    overflow:hidden;
+}
+.nom{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left:35%;
+    background-color: white;
+    margin-top: -25%;
+    padding-left:5%;
+}
+#Activites{
+    margin-top: 5%;
 }
 #conteneur4{  
     display:flex;
-    border:2px solid purple;
     justify-content: center;
-    margin-top:5%;
     text-align: bottom;
-    height: 550px;
+    height: 445px;
 }
 .vieuxport{
     background-image: url("images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: 170%;
     display:flex;
     flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    border:2px solid blue;
-    height:208px;
-    width:100%;
-    margin:2px 2px 2px 2px;
+    justify-content: flex-end;
+    border-radius:15px 15px 15px 15px;
+    height:445px;
+    width:80%;
+    margin:15px 15px 15px 0px;
+    box-shadow: 0px 15px 15px 0 #F2F2F2;
 }
 .fortpomegues{
     background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-repeat:no-repeat;
+    background-size:50%;
     display:flex;
     flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    border:2px solid blue;
-    height:100px;
-    margin:2px 2px 2px 2px;
+    justify-content: flex-end;
+    border-radius:15px 15px 15px 15px;
+    height:200px;
+    margin:15px 15px 15px 15px;
+    box-shadow: 0px 15px 15px 0 #F2F2F2;
 }
 .ilesfrioul{
     background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-repeat:no-repeat;
+    background-size:100%;
     display:flex;
     flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    border: 2px solid blue;
-    height: 100px;
-    margin-top: 2%;
-    margin: 2px 2px 2px 2px;
+    justify-content: flex-end;
+    border-radius:15px 15px 15px 15px;
+    height: 200px;
+    margin-top: 5%;
+    margin:15px 15px 15px 15px;
+    box-shadow: 0px 15px 15px 0 #F2F2F2;
 }
 .parccalanques{
     background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-repeat:no-repeat;
+    background-size:160%;
     display:flex;
     flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    border: 2px solid blue;
-    height: 208px;
+    justify-content: flex-end;
+    border-radius:15px 15px 15px 15px;
+    height: 445px;
     width: 100%;
-    margin: 2px 2px 2px 2px;
+    margin:15px 15px 15px 15px;
+    box-shadow: 0px 15px 15px 0 #F2F2F2;
 }
 .notredame{
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-repeat:no-repeat;
+    background-position: relative;
+    background-size:100%;
     display:flex;
+    justify-content: flex-end;
     flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    border: 2px solid blue;
-    height: 100px;
-    margin: 2px 2px 2px 2px;
+    border-radius:15px 15px 15px 15px;
+    height: 200px;
+    margin:15px 0px 15px 15px;
+    box-shadow: 0px 15px 15px 0 #F2F2F2;
 }
 .longchamp{
     background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-repeat:no-repeat;
     display:flex;
+    background-size:100%;
+    justify-content: flex-end;
     flex-direction: column;
-    background-clip:text;
-    text-align:justify
-    border: 2px solid blue;
-    height: 100px;
-    margin: 2px 2px 2px 2px;
+    border-radius:15px 15px 15px 15px;
+    height: 200px;
+    margin:15px 0px 15px 15px;
+    box-shadow: 0px 15px 15px 0 #F2F2F2;
 }
 .colonne1{
     display:flex;
     width:100%;
     flex-direction: column;
-    align-content:space-around;
-    justify-content:space-around;
+    align-content:flex-start;
+    justify-content:flex-start;
 }
 .colonne2{
     display:flex;
