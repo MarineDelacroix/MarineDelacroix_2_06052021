@@ -52,7 +52,21 @@ a:hover{
 .formulaire{
     display:flex;
     justify-content: flex-start;
-    max-width: 35%;
+    width: 45%;
+    height:50px;
+    border:none;
+}
+.localisation{
+    display:flex;
+}
+#recherche{
+    border:none;
+}
+#bouton{
+    background-color: #0065FC;
+    border-radius:0px 15px 15px 0px;
+    color:white;
+    border:none;
 }
 #conteneur1{
     display:flex;
