@@ -49,22 +49,27 @@ a:hover{
     display:flex;
     justify-content:space-around;
     align-items:stretch;
-    width:100%;
+    width:60%;
     font-size:1.2em;
 }
-#filtres img{
+#filtres i{
     height:20px;
     border:2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
+    background-color: #DEEBFF;
+    padding:20px 20px 20px 20px;
+    margin-right:-20px;
+    position:absolute;
 }
 .bouton{
     background-color: white;
     border:2px solid #F2F2F2;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 30px 30px 30px 30px;
     font-size:1.2em;
     font-weight:600;
     padding: 20px 20px 20px 20px;
     margin-bottom: 25px;
+    padding-left:60px;
 }
 .formulaire{
     display:flex;
@@ -215,11 +220,6 @@ a:hover{
     border-radius: 15px 15px 15px 15px;
 }
 .element1{
-    display:flex;
-    flex-direction:row;
-    border:2px solid white;
-    margin-top: 5%;
-    margin-bottom: 5%;
     max-width:70%;
     min-width: 70%;
     max-height:145px;
@@ -232,38 +232,41 @@ a:hover{
 }
 .element1:nth-child(1){
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 .element1:nth-child(2){
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: cover;
     display:flex;
-    flex-direction: row;
-    align-items: stretch;
-    background-position:relative;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: flex-end;
 }
 .element1:nth-child(3){
     background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-repeat:no-repeat;
-    background-size: 60%;
+    background-size: cover;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     background-clip:content-box;
     text-align:justify;
-    background-position: relative;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .element1:nth-child(4){
     background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: 35%;
+    background-size: cover;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     text-align:end;
+    align-items: flex-end;
     background-clip:text;
     background-position: relative;
+    justify-content: flex-end;
     overflow:hidden;
 }
 .nom{
