@@ -3,6 +3,7 @@
     src: url("Raleway/Raleway-VariableFont_wght.ttf");
 }
 body{
+    min-width:1024px;
     font-family: "Raleway";
     margin:3% 3% 3% 3%;
 }
@@ -38,7 +39,7 @@ a{
     font-size: bold;
     display:flex;
     justify-content:space-around;
-    width:30%;
+    max-width:30%;
     font-size: 1.2em;
 }
 .inscription{
@@ -47,13 +48,13 @@ a{
 }
 #filtres{
     display:flex;
-    justify-content:space-around;
-    align-items:stretch;
-    width:60%;
+    justify-content:space-between;
+    align-items:center;
+    max-width:60%;
     font-size:1.2em;
 }
 #filtres i{
-    height:20px;
+    max-height:20px;
     border:2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
     background-color: #DEEBFF;
@@ -74,14 +75,14 @@ a{
 .formulaire{
     display:flex;
     justify-content: flex-start;
-    width: 45%;
-    height:50px;
+    max-width: 45%;
+    max-height:50px;
 }
 .localisation{
     display:flex;
 }
 .logoloc{
-    height:25px;
+    max-height:25px;
     background-color:#F2F2F2;
     padding:2% 2% 1.5% 3%;
     border-radius:15px 0px 0px 15px;
@@ -96,7 +97,7 @@ a{
     border-radius:0px 15px 15px 0px;
     color:white;
     border:none;
-    width:20%;
+    max-width:20%;
     font-size: 1.5em;
 }
 #conteneur1{
@@ -109,7 +110,7 @@ a{
     text-align: end;
 }
 .conteneur2{
-    width:65%;
+    max-width:65%;
     max-height:600px;
     border:2px solid white;
     display:flex;
@@ -123,10 +124,10 @@ a{
 }
 .element{
     display:flex;
-    width:25%;
     border:5px solid white;
     max-height:200px;
     min-width:25%;
+    max-width: 25%;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
     align-content:flex-start;
@@ -140,16 +141,17 @@ a{
     align-items: flex-start;
     justify-content: space-around;
     background-color: white;
-    max-height:80px;
-    min-height: 80px;
+    max-height:25%;
+    min-height:25%;
     max-width:100%;
-    min-width: 100%;
     flex-wrap:nowrap;
     position:relative;
     padding-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 10%;
     margin-bottom: 0%;
     margin-top:50%;
+    border:15px solid white;
+    border-radius: 0px 0px 15px 15px;
 }
 .titresection{
     position:absolute;
@@ -160,7 +162,6 @@ a{
     display:flex;
     flex-direction: row;
     color:#0065FC;
-    margin-top:3%;
 }
 .element:nth-child(1){
     background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -169,6 +170,7 @@ a{
     background-clip:border-box;
     display:flex;
     flex-direction: column;
+    max-height:30%;
 }
 .element:nth-child(2){
     background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
@@ -177,6 +179,7 @@ a{
     display:flex;
     flex-direction: column;
     background-clip:text;
+    max-height:30%;
 }
 .element:nth-child(3){
     background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
@@ -185,6 +188,7 @@ a{
     display:flex;
     flex-direction: column;
     background-clip:text;
+    max-height:30%;
 }
 .element:nth-child(4){
     background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
@@ -193,6 +197,7 @@ a{
     background-position: relative;
     display:flex;
     flex-direction: column;
+    max-height:30%;
 }
 .element:nth-child(5){
     background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
@@ -202,6 +207,7 @@ a{
     display:flex;
     flex-direction: column;
     background-clip:border-box;
+    max-height:30%;
 }
 .element:nth-child(6){
     background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
@@ -209,6 +215,8 @@ a{
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
+    max-height:30%;
+    position:static;
 }
 
 .conteneur3{
