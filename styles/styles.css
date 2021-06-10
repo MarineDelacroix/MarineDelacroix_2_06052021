@@ -434,7 +434,39 @@ h4{
     background-color: white;
     display:flex;
 }
+@media screen and (max-width: 768px) {
+    .nav{
+        display:flex;
+        margin-top:20%;
+    }
+    body{
+        width: auto;
+        display:flex;
+        flex-direction: column;
+        margin:auto;
+    }
+    #filtres{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    h1{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .conteneur3{
+        order:1;
+    }
+    .conteneur2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items:baseline;
+        margin:20px 20px 20px 20px;
+        min-width: 200%;
+    }
 
+    
+}
 
 
 

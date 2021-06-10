@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .nav{
+        display:flex;
+        margin-top:20%;
+    }
+    .body{
+        background-color:blue;
+    }
+
+    }
+    
+}
+
