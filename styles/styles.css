@@ -39,7 +39,8 @@ a{
     font-size: bold;
     display:flex;
     justify-content:space-around;
-    max-width:30%;
+    width:30%;
+    max-width:50%;
     font-size: 1.2em;
 }
 .inscription{
@@ -50,6 +51,7 @@ a{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    align-content: center;
     max-width:60%;
     font-size:1.2em;
 }
@@ -125,7 +127,7 @@ a{
 .element{
     display:flex;
     border:5px solid white;
-    max-height:200px;
+    max-height:230px;
     min-width:25%;
     max-width: 25%;
     border-radius: 15px 15px 15px 15px;
@@ -139,19 +141,16 @@ a{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content:flex-start;
     background-color: white;
-    max-height:25%;
-    min-height:25%;
+    max-height:100%;
+    min-height:20%;
     max-width:100%;
+    min-width: 100%;
     flex-wrap:nowrap;
-    position:relative;
-    padding-bottom: 10px;
-    padding-top: 10%;
-    margin-bottom: 0%;
-    margin-top:50%;
-    border:15px solid white;
+    margin-top:28%;
     border-radius: 0px 0px 15px 15px;
+    overflow:hidden;
 }
 .titresection{
     position:absolute;
@@ -167,7 +166,6 @@ a{
     background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-clip:border-box;
     display:flex;
     flex-direction: column;
     max-height:30%;
@@ -178,7 +176,6 @@ a{
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
-    background-clip:text;
     max-height:30%;
 }
 .element:nth-child(3){
@@ -187,14 +184,12 @@ a{
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
-    background-clip:text;
     max-height:30%;
 }
 .element:nth-child(4){
     background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: relative;
     display:flex;
     flex-direction: column;
     max-height:30%;
@@ -206,7 +201,6 @@ a{
     max-width: 100%;
     display:flex;
     flex-direction: column;
-    background-clip:border-box;
     max-height:30%;
 }
 .element:nth-child(6){
@@ -216,7 +210,6 @@ a{
     display:flex;
     flex-direction: column;
     max-height:30%;
-    position:static;
 }
 
 .conteneur3{
