@@ -3,9 +3,9 @@
     src: url("Raleway/Raleway-VariableFont_wght.ttf");
 }
 body{
-    min-width:1024px;
+    width:1024px;
     font-family: "Raleway";
-    margin:3% 3% 3% 3%;
+    margin:auto;
 }
 h1{
     font-weight: 900px;;
@@ -62,7 +62,6 @@ a{
     background-color: #DEEBFF;
     padding:20px 20px 20px 20px;
     margin-right:-20px;
-    position:absolute;
 }
 .bouton{
     background-color: white;
@@ -108,12 +107,9 @@ a{
     flex-direction:row;
     justify-content:space-between;
     border:2px solid white;
-    max-height: 640px;
     text-align: end;
 }
 .conteneur2{
-    max-width:65%;
-    max-height:600px;
     border:2px solid white;
     display:flex;
     flex-direction: row;
@@ -127,9 +123,7 @@ a{
 .element{
     display:flex;
     border:5px solid white;
-    max-height:230px;
     min-width:25%;
-    max-width: 25%;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
     align-content:flex-start;
@@ -153,7 +147,7 @@ a{
     overflow:hidden;
 }
 .titresection{
-    position:absolute;
+    position:relative;
     margin-left:3%;
     margin-top: 2%;
 }
@@ -214,19 +208,16 @@ a{
 
 .conteneur3{
     flex-direction: column;
-    width:30%;
     display:flex;
-    justify-content: space-around;
+    justify-content:center;
     border:2px solid white;
-    align-items: center;
+    align-items:flex-start;
     height:628px;
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
 }
 .element1{
-    max-width:70%;
     min-width: 70%;
-    max-height:145px;
     min-height:145px;
     text-align:end;
     border:5px solid white;
@@ -380,7 +371,6 @@ a{
 }
 .colonne1{
     display:flex;
-    width:100%;
     flex-direction: column;
     align-content:flex-start;
     justify-content:flex-start;
@@ -434,38 +424,42 @@ h4{
     background-color: white;
     display:flex;
 }
-@media screen and (max-width: 768px) {
-    .nav{
+@media screen and (max-width: 768px)
+{
+    .element0:nth-child(2){
         display:flex;
-        margin-top:20%;
+        flex-direction: column;
+        justify-content: center;
+        width:auto;
     }
     body{
         width: auto;
-        display:flex;
-        flex-direction: column;
-        margin:auto;
+        margin: auto;
+        position:relative;
     }
     #filtres{
+        width:auto;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
-    }
-    h1{
-        display:flex;
-        flex-wrap: wrap;
-    }
-    .conteneur3{
-        order:1;
+        position:relative;
     }
     .conteneur2{
         flex-direction: column;
         flex-wrap: nowrap;
-        align-items:baseline;
-        margin:20px 20px 20px 20px;
-        min-width: 200%;
+        justify-content: space-around;
+        width: auto;
+        background-color:#0065FC;
+        position:relative;
+    }
+    #conteneur1{
+        flex-direction: column;
+        justify-content: space-between;
+        position:relative;
+        width:auto;
     }
 
-    
+   
 }
 
 
