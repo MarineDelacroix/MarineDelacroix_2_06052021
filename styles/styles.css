@@ -19,8 +19,7 @@ a{
    color:black;
 }
 #menu a:hover{
-   text-decoration-line: overline;
-   color:#0065FC;
+   border-top:5px solid #0065FC;
 }
 #menu{
     display:flex;
@@ -297,7 +296,6 @@ a{
     width:80%;
     margin:15px 15px 15px 0px;
     box-shadow: 0px 15px 15px 0 #F2F2F2;
-    max-width: 100%;
     overflow:hidden;
 }
 .fortpomegues{
@@ -372,6 +370,7 @@ a{
 .colonne1{
     display:flex;
     flex-direction: column;
+    width:100%;
     align-content:flex-start;
     justify-content:flex-start;
 }
@@ -431,11 +430,30 @@ h4{
         margin: auto;
         position:relative;
     }
-    .element0:nth-child(2){
+    #menu{          
         display:flex;
         flex-direction: column;
         justify-content: center;
         width:auto;
+    }
+    #menu a:hover{
+        border-top:none;
+     }
+    .element0:nth-child(2){
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:auto;
+    }
+    .nav{
+        display:flex;
+        margin-top:50%;
+        font-size:xx-large;
+        justify-content: space-around;
+        align-items:center;
+    }
+    .nav:hover{
+        border-bottom: 10px solid #0065FC;
     }
     #filtres{
         width:auto;
@@ -458,6 +476,99 @@ h4{
         position:relative;
         width:auto;
     }
+    .conteneur3{
+        align-items:center;
+    }
+    .titresection{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #conteneur4{
+        flex-direction: column;
+        justify-content: stretch;
+        align-items:center;
+        margin:auto;
+        height:auto;
+        width:auto;
+    }
+    .vieuxport{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        min-width:100%;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        overflow:hidden;
+    }
+    .fortpomegues{
+        display:flex;
+        flex-direction: column;
+        margin:auto;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    .ilesfrioul{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        min-width:100%;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        overflow:hidden;
+    }
+    .parccalanques{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    .notredame{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    .longchamp{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    #bouton{
+        border:5px solid blue;
+        background-color:#0065FC;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items:flex-start;
+    }
+    .apropos{
+        display:flex;
+        align-content:center;
+    }
+    
+    
+
 }
 
 
