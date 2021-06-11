@@ -1,3 +1,40 @@
+@media screen and (max-width: 768px)
+{
+    .element0:nth-child(2){
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:auto;
+    }
+    body{
+        width: auto;
+        margin: auto;
+        position:relative;
+    }
+    #filtres{
+        width:auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position:relative;
+    }
+    .conteneur2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: auto;
+        background-color:#0065FC;
+        position:relative;
+    }
+    #conteneur1{
+        flex-direction: column;
+        justify-content: space-between;
+        position:relative;
+        width:auto;
+    }
+
+   
+}
 @font-face {
     font-family: "Raleway";
     src: url("Raleway/Raleway-VariableFont_wght.ttf");
@@ -424,43 +461,7 @@ h4{
     background-color: white;
     display:flex;
 }
-@media screen and (max-width: 768px)
-{
-    .element0:nth-child(2){
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        width:auto;
-    }
-    body{
-        width: auto;
-        margin: auto;
-        position:relative;
-    }
-    #filtres{
-        width:auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        position:relative;
-    }
-    .conteneur2{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        width: auto;
-        background-color:#0065FC;
-        position:relative;
-    }
-    #conteneur1{
-        flex-direction: column;
-        justify-content: space-between;
-        position:relative;
-        width:auto;
-    }
 
-   
-}
 
 
 
