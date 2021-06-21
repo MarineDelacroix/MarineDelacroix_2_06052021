@@ -1,0 +1,472 @@
+@media screen and (min-width: 768px){
+        @font-face {
+            font-family: "Raleway";
+            src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
+        }
+        body{
+            max-width:1440px;
+            font-family: "Raleway";
+            margin:auto;
+        }
+        h1{
+            font-size: 2em;
+            font-weight:bold;
+        }
+        h2{
+            font-size:2em;
+            font-weight:bold;
+        }
+        .bouton:hover{
+           background-color: #0065FC;
+        }
+        a{
+           text-decoration:none;
+           color:black;
+        }
+        #menu a:hover{
+           border-top:2px solid #0065FC;
+           color:#0065FC;
+        }
+        #menu{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+            font-size:1.2em;
+            font-weight:bold;
+            max-width:100%;
+            padding:0;
+            height:auto;
+        }
+        .element0:nth-child(1){
+            justify-self:flex-start;
+            align-self:stretch;
+        }
+        .element0:nth-child(2){
+            justify-self: flex-end;
+            color: #0065FC;
+            font-size: bold;
+            display:flex;
+            justify-content:space-around;
+            width:30%;
+            max-width:50%;
+            font-size: 1.2em;
+        }
+        .inscription{
+            color:#0065FC;
+            font-weight:bolder;
+        }
+        
+        #filtres{
+            display:flex;
+            justify-content:space-between;
+            width:60%;
+            font-size:1.2em;
+        }
+        #filtres i{
+            height:20px;
+            border:2px solid #F2F2F2;
+            border-radius: 40px 40px 40px 40px;
+            background-color: #DEEBFF;
+            padding:20px 20px 20px 20px;
+            display:flex;
+            position:absolute;
+        }
+        .bouton{
+            background-color: white;
+            border:2px solid #F2F2F2;
+            border-radius: 40px 40px 40px 40px;
+            font-size:1.2em;
+            font-weight:600;
+            padding: 20px 20px 20px 20px;
+            padding-left:60px;
+            width:100%;
+        }
+        .formulaire{
+            display:flex;
+            justify-content: flex-start;
+            max-width: 45%;
+            max-height:50px;
+        }
+        .localisation{
+            display:flex;
+        }
+        .logoloc{
+            max-height:25px;
+            background-color:#F2F2F2;
+            padding:2% 2% 1.5% 3%;
+            border-radius:15px 0px 0px 15px;
+        }
+        #recherche{
+            border:2px solid #F2F2F2;
+            font-size: 2em;
+            font-weight: medium;
+        }
+        #bouton{
+            background-color: #0065FC;
+            border-radius:0px 15px 15px 0px;
+            color:white;
+            border:none;
+            width:auto;
+            font-size: 1.5em;
+        }
+        #bouton2{
+            display:none;
+        }
+        .info i{
+            color:#0065FC;
+            border:1px solid #F2F2F2;
+            border-radius:50px 50px 50px 50px;
+            padding:8px 12px 8px 12px;
+        }
+        #conteneur1{
+            display:flex;
+            flex-wrap:nowrap;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items: stretch;
+            border:2px solid white;
+            text-align: end;
+        }
+        .conteneur2{
+            border:2px solid white;
+            width:70%;
+            display:flex;
+            flex-direction: row;
+            border:2px solid white;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-content:center;
+            background-color: #F2F2F2;
+            border-radius: 15px 15px 15px 15px;
+        }
+        .element{
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border:5px solid white;
+            border-radius: 15px 15px 15px 15px;
+            background-color: white;
+            flex-wrap: nowrap;
+            box-sizing:content-box;
+            width:100%;
+            width:250px;
+            height:200px;
+            margin-top:5%;
+        }
+        div.heb{
+            background-color: white;
+            flex-direction: column;
+            align-content: flex-end;
+            text-align: justify;
+            box-sizing:content-box;
+            width:100%;
+            border-radius: 0px 0px 15px 15px;
+            margin-top:50%;
+        }
+        .titresection{
+            position:absolute;
+            margin-left:3%;
+            padding-top:1%;
+        }
+        .stars{
+            display:flex;
+            flex-direction: row;
+            color:#0065FC;
+        }
+        .element:nth-child(1){
+            background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position:center;
+            max-height:30%;
+        }
+        .element:nth-child(2){
+            background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size:130%;
+            background-position-y: 200%;
+            max-height:30%;
+        }
+        .element:nth-child(3){
+            background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size:130%;
+            background-position-y: 200%;
+            max-height:30%;
+        }
+        .element:nth-child(4){
+            background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size:105%;
+            background-position-y: 100%;
+            max-height:30%;
+        }
+        .element:nth-child(5){
+            background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            max-width: 100%;
+            max-height:30%;
+        }
+        .element:nth-child(6){
+            background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size:110%;
+            background-position-y: 65%;
+            max-height:30%;
+        }
+        .conteneur3{
+            flex-direction: column;
+            display:flex;
+            justify-content:space-evenly;
+            align-items:center;
+            border:2px solid white;
+            height:628px;
+            width:30%;
+            background-color: #F2F2F2;
+            border-radius: 15px 15px 15px 15px;
+            margin-left:5%;
+        }
+        .element1{
+            width:350px;
+            height:150px;
+            border:5px solid white;
+            border-radius:15px 15px 15px 15px;
+            background-color: white;
+            overflow: hidden;
+        }
+        .element1:nth-child(1){
+            display:flex;
+            justify-content: space-around;
+            align-items: baseline;
+        }
+        .element1:nth-child(2){
+            background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: 70%;
+            background-position-y: 50%;
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: flex-end;
+        }
+        .element1:nth-child(3){
+            background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+            background-repeat:no-repeat;
+            background-size: 65%;
+            background-position-x:-60%;
+            display:flex;
+            flex-direction: column;
+            background-clip:content-box;
+            text-align:justify;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+        .element1:nth-child(4){
+            background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: 35%;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align:end;
+            align-items: flex-end;
+            background-clip:text;
+            background-position: relative;
+            justify-content: flex-end;
+            overflow:hidden;
+        }
+        .nom{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            margin-left:35%;
+            background-color: white;
+            padding-left:5%;
+            padding-bottom:10%;
+        }
+        #Activites{
+            margin-top: 5%;
+        }
+        #conteneur4{  
+            display:flex;
+            justify-content: space-evenly;
+            align-content:space-between;
+            align-items:stretch;
+            height: 445px;
+            margin-top:5%;
+        }
+        .vieuxport{
+            background-image: url("images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+            background-repeat:no-repeat;
+            background-size:200%;
+            background-position-x: 50%;
+            width:300px;
+            display:flex;
+            vertical-align:bottom;
+            flex-direction: column;
+            justify-content: flex-end;
+            border-radius:15px 15px 15px 15px;
+            box-shadow: 0px 15px 15px 0 #F2F2F2;
+        }
+        .vieuxport h3{
+            background-color:white;
+            padding:5% 5% 5% 5%;
+            margin-top:400px;
+            margin-bottom:0%;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .fortpomegues{
+            background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+            height:230px;
+            display:flex;
+            vertical-align: bottom;
+            flex-direction: column;
+            justify-content: flex-end;
+            border-radius:15px 15px 15px 15px;
+            box-shadow: 0px 15px 15px 0 #F2F2F2;
+        }
+        .fortpomegues h3{
+            background-color:white;
+            padding:5% 5% 5% 5%;
+            margin-top:65%;
+            margin-bottom:0%;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .ilesfrioul{
+            background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:160px;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border-radius:15px 15px 15px 15px;
+            box-shadow: 0px 15px 15px 0 #F2F2F2;
+        }
+        .ilesfrioul h3{
+            background-color:white;
+            padding:5% 5% 5% 5%;
+            margin-top:40%;
+            margin-bottom:0%;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .parccalanques{
+            background-image: url("images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+            background-repeat:no-repeat;
+            background-size:200%;
+            background-position-x: 50%;
+            width:300px;
+            display:flex;
+            flex-direction: column;
+            vertical-align: bottom;
+            justify-content: flex-end;
+            border-radius:15px 15px 15px 15px;
+            box-shadow: 0px 15px 15px 0 #F2F2F2;
+        }
+        .parccalanques h3{
+            background-color:white;
+            padding:5% 5% 5% 5%;
+            margin-top:400px;
+            margin-bottom:0%;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .notredame{
+            background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:200px;
+            display:flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            border-radius:15px 15px 15px 15px;
+            box-shadow: 0px 15px 15px 0 #F2F2F2;
+        }
+        .notredame h3{
+            background-color:white;
+            padding:5% 5% 5% 5%;
+            margin-top:52%;
+            margin-bottom:0%;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .longchamp{
+            background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+            background-repeat:no-repeat;
+            display:flex;
+            background-size:cover;
+            height:200px;
+            justify-content: flex-end;
+            flex-direction: column;
+            border-radius:15px 15px 15px 15px;
+            box-shadow: 0px 15px 15px 0 #F2F2F2;
+        }
+        .longchamp h3{
+            background-color:white;
+            padding:5% 5% 5% 5%;
+            margin-top:52%;
+            margin-bottom:0%;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .colonne1{
+            display:flex;
+            flex-direction: column;
+            width:300px;
+            justify-content:space-between;
+        }
+        .colonne2{
+            display:flex;
+            width:300px;
+            flex-direction: column;
+            justify-content:space-between;
+        }
+        .name{
+            display:flex;
+            flex-direction: column;
+            position:relative;
+            vertical-align:baseline;
+        }
+        .prix{
+            font-size:1em;
+        }
+        #filtres i{
+            color:#0065FC;
+            border:15px 15px 15px 15px solid #F2F2F2;
+        
+        }
+        ul{
+            list-style-type:none;
+        }
+        #footer{
+            max-width:100%;
+            margin-top:10%;
+            font-size: 1.2em;
+            margin-left:0px;
+            background-color:#F2F2F2;
+        }
+        h4{
+            font-weight: bold;
+        }
+        .footer{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-content: flex-end;
+            align-items: flex-end;
+            margin-right:20%;
+        }
+        .footer a:hover{
+            text-decoration: none;
+        }
+        #conteneur4 h2{
+            background-color: white;
+            display:flex;
+        }
+
+}
