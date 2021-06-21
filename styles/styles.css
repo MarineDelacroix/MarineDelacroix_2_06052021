@@ -1,4 +1,4 @@
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 992px){
 @font-face {
     font-family: "Raleway";
     src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
@@ -23,7 +23,7 @@ a{
    text-decoration:none;
    color:black;
 }
-#menu a:hover{
+.nav a:hover{
    border-top:2px solid #0065FC;
    color:#0065FC;
 }
@@ -34,12 +34,16 @@ a{
     font-size:1.2em;
     font-weight:bold;
     max-width:100%;
-    padding:0;
     height:auto;
+}
+.nav{
+    display:flex;
+    padding-top:5%;
 }
 .element0:nth-child(1){
     justify-self:flex-start;
     align-self:stretch;
+    padding-top:2%;
 }
 .element0:nth-child(2){
     justify-self: flex-end;
@@ -54,6 +58,7 @@ a{
 .inscription{
     color:#0065FC;
     font-weight:bolder;
+    padding-top:5%;
 }
 
 #filtres{
@@ -80,6 +85,9 @@ a{
     padding: 20px 20px 20px 20px;
     padding-left:60px;
     width:100%;
+}
+.mobile{
+    display:none;
 }
 .formulaire{
     display:flex;
@@ -152,6 +160,7 @@ a{
     width:250px;
     height:200px;
     margin-top:5%;
+    box-shadow:5px #F2F2F2;
 }
 div.heb{
     background-color: white;
@@ -165,7 +174,7 @@ div.heb{
 }
 .titresection{
     position:absolute;
-    margin-left:3%;
+    margin-right:33%;
     padding-top:1%;
 }
 .stars{
@@ -230,6 +239,19 @@ div.heb{
     border-radius: 15px 15px 15px 15px;
     margin-left:5%;
 }
+.logochart{
+    display:flex;
+    flex-direction:row;
+    align-items: stretch;
+    height:25px;
+    flex-wrap: nowrap;
+}
+.logochart:nth-child(1){
+    flex-wrap: nowrap;
+}
+.logochart h2{
+    margin-top:-10%;
+}
 .element1{
     width:350px;
     height:150px;
@@ -291,10 +313,12 @@ div.heb{
 }
 #Activites{
     margin-top: 5%;
+    margin-bottom:-3%;
 }
 #conteneur4{  
     display:flex;
-    justify-content: space-evenly;
+    width:100%;
+    justify-content: space-between;
     align-content:space-between;
     align-items:stretch;
     height: 445px;
