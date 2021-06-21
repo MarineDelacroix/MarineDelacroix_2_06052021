@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8"/>
         <meta name=viewport content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/styles.css"/>
+        <link rel="stylesheet" media="screen and (min-width: 1199px)" href="styles/styles.css"/>
+        <link rel="stylesheet" media="screen and (max-width:768px)"href="styles/Petite_resolution.css"/>
         <script src="https://kit.fontawesome.com/4eebba87fa.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
@@ -20,13 +21,13 @@
                     <a class="inscription" href="inscription.html"><strong>S'inscrire</strong></a></div>
             </div>
             <div id="Recherche">
-                <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <!-- Barre de recherche et bouton -->
                 <form method="post" action="traitement.php">
                     <p class="formulaire"> 
                         <img class="logoloc" alt="logolocalisation" src="styles/fontawesome/map-marker-alt-solid.svg"/>
-                        <input type="search" name="recherche" id="recherche" placeholder="Marseille,France" size="20" maxlength="30" /> <!-- Champ de recherche -->
+                        <input type="search" name="recherche" id="recherche" placeholder="Marseille,France" style="font-weight: bold;" size="20" maxlength="30" /> <!-- Champ de recherche -->
                         <input type="button" id="bouton" value="Rechercher" />        <!-- Bouton -->
                     </p>
                 </form>
@@ -97,7 +98,7 @@
                 </div>
                                                                                   <!-- Section 2 Les plus populaires -->
                 <div class="conteneur3">
-                    <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2> <!-- Titre section 2 + logo chart -->
+                    <h2>Les plus populaires        <i class="fas fa-chart-line"></i></h2> <!-- Titre section 2 + logo chart -->
                     <div class="element1"><a href="" style="width:100%;height:100%";>
                         <div class="nom"><h3>Hôtel Le soleil du matin</h3><p>Nuit à partir de €</p><p class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div>
                     </a>
