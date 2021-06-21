@@ -1,0 +1,165 @@
+@media screen and (max-width: 768px)
+{
+    body{
+        min-width: none;
+        width: auto;
+        margin: auto;
+    }
+    h1{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    #Recherche{
+        font-weight: 500px;
+        font-size: 1.2em;
+        display:flex;
+        flex-wrap: wrap;
+        max-width:60%;
+    }
+    #menu{          
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:auto;
+    }
+    #menu a:hover{
+        border-top:none;
+     }
+    .element0:nth-child(2){
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:auto;
+    }
+    .nav{
+        display:flex;
+        margin-top:30%;
+        font-size:xx-large;
+        justify-content: space-around;
+        position:relative;
+        align-items:center;
+    }
+    .nav:hover{
+        border-bottom: 10px solid #0065FC;
+    }
+    #filtres{
+        width:auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position:relative;
+    }
+    .row{
+        display:flex;
+    }
+    .conteneur2{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .element{
+        width:100%;
+    }
+    #conteneur1{
+        flex-direction: column;
+        justify-content: space-between;
+        position:relative;
+        width:auto;
+    }
+    .conteneur3{
+        align-items:center;
+    }
+    .titresection{
+     position:relative;
+     display:flex;
+     align-items: flex-start;
+    }
+    #conteneur4{
+        flex-direction: column;
+        justify-content: stretch;
+        align-items:center;
+        margin:auto;
+        height:auto;
+        width:auto;
+    }
+    .vieuxport{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        min-width:100%;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        overflow:hidden;
+    }
+    .fortpomegues{
+        display:flex;
+        flex-direction: column;
+        margin:auto;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    .ilesfrioul{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        min-width:100%;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        overflow:hidden;
+    }
+    .parccalanques{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    .notredame{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    .longchamp{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius:15px 15px 15px 15px;
+        margin:auto;
+        box-shadow: 0px 15px 15px 0 #F2F2F2;
+        min-width: 100%;
+        overflow:hidden;
+    }
+    #bouton{
+        border:5px solid blue;
+        background-color:#0065FC;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items:flex-start;
+    }
+    .apropos{
+        display:flex;
+        align-content:center;
+    }
+}
+
+
+
+
