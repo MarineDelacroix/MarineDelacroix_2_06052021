@@ -109,6 +109,9 @@ a{
     width:auto;
     font-size: 1.5em;
 }
+#bouton2{
+    display:none;
+}
 .info i{
     color:#0065FC;
     border:1px solid #F2F2F2;

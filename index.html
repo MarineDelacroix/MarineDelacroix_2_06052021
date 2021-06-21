@@ -27,13 +27,15 @@
                 <form method="post" action="traitement.php">
                     <p class="formulaire"> 
                         <img class="logoloc" alt="logolocalisation" src="styles/fontawesome/map-marker-alt-solid.svg"/>
-                        <input type="search" name="recherche" id="recherche" placeholder="Marseille,France" style="font-weight: bold;" size="20" maxlength="30" /> <!-- Champ de recherche -->
-                        <input type="button" id="bouton" value="Rechercher" />        <!-- Bouton -->
+                        <input type="search" name="recherche" id="recherche" placeholder="Marseille,France" size="15" maxlength="30" /> <!-- Champ de recherche -->
+                        <input type="button" id="bouton" value="Rechercher"/>
+                        <i id="bouton2" class="fas fa-search" style="color:white;size:50px;" size="20"><input type="button" id="bouton" value=""/></i>       <!-- Bouton -->
                     </p>
                 </form>
             </div>
+            <h4 class="mobile">Filtres</h4>
             <div id="filtres">                                                         <!-- Filtres -->
-                    <div><h4>Filtres</h4></div>
+                    <div class="desk"><h4>Filtres</h4></div>
                     <div class="row"><i class="fas fa-money-bill-wave"></i><input type="button" class="bouton" value="Economique"  /></div>
                     <div class="row"><i class="fas fa-child"></i><input type="button" class="bouton" value="Familial"  /></div>
                     <div><i class="fas fa-heart"></i><input type="button" class="bouton" value="Romantique"  /></div>
@@ -117,7 +119,7 @@
 
                                                                                     <!-- Section 3 Activites -->
         <section id="conteneur3">
-            <h2 id="Activites">Activités à Marseille</h2>                           <!-- Ancre vers section 2 Activites-->
+            <h2 id="Activites">Activités à Marseille</h2>                           <!-- Ancre vers section 3 Activites-->
             <div id="conteneur4">
                 <div class="vieuxport"><a href="" style="width:100%;height:100%";><h3 class="name">Vieux Port</h3></a></div>
                 <div class="colonne1">
