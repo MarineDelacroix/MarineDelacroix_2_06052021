@@ -4,8 +4,6 @@
 }
  body{
         font-family: "Raleway";
-        margin:auto;
-        min-width: none;
         width: auto;
         margin: auto;
     }
@@ -43,33 +41,26 @@ a{
        border-top:2px solid #0065FC;
        color:#0065FC;
     }
-    #menu{
-        display:flex;
-        flex-direction:row;
-        justify-content: space-between;
-        font-size:1.2em;
-        font-weight:bold;
-        max-width:100%;
-        padding:0;
-        height:auto;
-    }
     .element0:nth-child(1){
         justify-self:flex-start;
         align-self:stretch;
     }
     .element0:nth-child(2){
-        justify-self: flex-end;
         color: #0065FC;
+        width:100%;
         font-size: bold;
         display:flex;
-        justify-content:space-around;
-        width:30%;
-        max-width:50%;
+        flex-direction: row;
+        justify-content:stretch;
+        align-items: stretch;
+        align-content: stretch;
         font-size: 1.2em;
     }
     .inscription{
         color:#0065FC;
         font-weight:bolder;
+        position:absolute;
+        margin-left:80%;
     }
     .info i{
         color:#0065FC;
@@ -136,31 +127,20 @@ a{
         width:auto;
         font-size: 1.5em;
     }
-    #menu{          
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        width:auto;
-    }
     #menu a:hover{
         border-top:none;
      }
-    .element0:nth-child(2){
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        margin:auto;
-    }
     .nav{
         display:flex;
-        margin-top:30%;
-        font-size:xx-large;
-        justify-content: space-around;
-        position:relative;
-        align-items:center;
+        width:120%;
+        justify-content: center;
+        margin-top:20%;
+        padding-bottom:3%;
+        border-bottom: 5px solid #F2F2F2;
     }
+   
     .nav:hover{
-        border-bottom: 10px solid #0065FC;
+        border-bottom: 5px solid #0065FC;
     }
     #filtres{
         width:auto;
