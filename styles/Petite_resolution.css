@@ -1,20 +1,140 @@
-@media screen and (max-width: 768px)
-{
-    body{
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
+}
+ body{
+        font-family: "Raleway";
+        margin:auto;
         min-width: none;
         width: auto;
         margin: auto;
     }
-    h1{
+h1{
+        font-size: 1.5em;
+        font-weight:bold;
+    }
+h2{
+        font-size:2em;
+        font-weight:bold;
+    }
+    .bouton:hover{
+       background-color: #0065FC;
+    }
+a{
+       text-decoration:none;
+       color:black;
+    }
+    #filtres{
         display:flex;
-        flex-wrap:wrap;
+        justify-content:space-between;
+        width:60%;
+        font-size:1.2em;
+    }
+    #filtres i{
+        height:20px;
+        border:2px solid #F2F2F2;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #DEEBFF;
+        padding:20px 20px 20px 20px;
+        display:flex;
+        position:absolute;
+    }
+    #menu a:hover{
+       border-top:2px solid #0065FC;
+       color:#0065FC;
+    }
+    #menu{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        font-size:1.2em;
+        font-weight:bold;
+        max-width:100%;
+        padding:0;
+        height:auto;
+    }
+    .element0:nth-child(1){
+        justify-self:flex-start;
+        align-self:stretch;
+    }
+    .element0:nth-child(2){
+        justify-self: flex-end;
+        color: #0065FC;
+        font-size: bold;
+        display:flex;
+        justify-content:space-around;
+        width:30%;
+        max-width:50%;
+        font-size: 1.2em;
+    }
+    .inscription{
+        color:#0065FC;
+        font-weight:bolder;
+    }
+    .info i{
+        color:#0065FC;
+        border:1px solid #F2F2F2;
+        border-radius:50px 50px 50px 50px;
+        padding:8px 12px 8px 12px;
+    }
+    #filtres{
+        display:flex;
+        justify-content:space-between;
+        width:60%;
+        font-size:1.2em;
+    }
+    #filtres i{
+        height:20px;
+        border:2px solid #F2F2F2;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #DEEBFF;
+        padding:20px 20px 20px 20px;
+        display:flex;
+        position:absolute;
+    }
+    .bouton{
+        background-color: white;
+        border:2px solid #F2F2F2;
+        border-radius: 40px 40px 40px 40px;
+        font-size:1.2em;
+        font-weight:600;
+        padding: 20px 20px 20px 20px;
+        padding-left:60px;
+        width:100%;
+    }
+    .formulaire{
+        display:flex;
+        max-height:50px;
+    }
+    .localisation{
+        display:flex;
+    }
+    .logoloc{
+        max-height:25px;
+        background-color:#F2F2F2;
+        padding:2% 2% 1.5% 3%;
+        border-radius:15px 0px 0px 15px;
     }
     #Recherche{
         font-weight: 500px;
         font-size: 1.2em;
         display:flex;
         flex-wrap: wrap;
-        max-width:60%;
+        max-width:90%;
+    }
+    #recherche{
+        border:2px solid #F2F2F2;
+        font-size: 2em;
+        font-weight: medium;
+        width:100%;
+    }
+    #bouton{
+        background-color: #0065FC;
+        border-radius:0px 15px 15px 0px;
+        color:white;
+        border:none;
+        width:auto;
+        font-size: 1.5em;
     }
     #menu{          
         display:flex;
@@ -58,18 +178,130 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         height: 100%;
+        align-items: center;
     }
     .element{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border:5px solid white;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        flex-wrap: nowrap;
+        box-sizing:content-box;
         width:100%;
+        width:300px;
+        height:200px;
+        margin-top:5%;
     }
     #conteneur1{
-        flex-direction: column;
+        display:flex;
+        flex-direction: column-reverse;
         justify-content: space-between;
         position:relative;
         width:auto;
     }
+    div.heb{
+        background-color: white;
+        flex-direction: column;
+        align-content: flex-end;
+        text-align: justify;
+        box-sizing:content-box;
+        width:100%;
+        border-radius: 0px 0px 15px 15px;
+        margin-top:50%;
+        padding-bottom:5%;
+    }
+    .stars{
+        display:flex;
+        flex-direction: row;
+        color:#0065FC;
+    }
+    .element:nth-child(1){
+        background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .element:nth-child(2){
+        background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+        background-repeat: no-repeat;
+     
+    }
+    .element:nth-child(3){
+        background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .element:nth-child(4){
+        background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .element:nth-child(5){
+        background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .element:nth-child(6){
+        background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+     
+    }
     .conteneur3{
-        align-items:center;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#F2F2F2;
+        margin-top:15%;
+    }
+    .element1{
+        width:350px;
+        height:150px;
+        border:5px solid white;
+        border-radius:15px 15px 15px 15px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .element1:nth-child(1){
+        display:flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .element1:nth-child(2){
+        background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+        background-repeat: no-repeat;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .element1:nth-child(3){
+        background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+        background-repeat:no-repeat;
+        display:flex;
+        flex-direction: column;
+        background-clip:content-box;
+        justify-content: flex-end;
+    }
+    .element1:nth-child(4){
+        background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+        background-repeat:no-repeat;
+        display:flex;
+        flex-direction: column;
+        background-clip:content-box;
+        justify-content: flex-end;
+    }
+    .nom{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-left:35%;
+        background-color: white;
+        padding-left:5%;
+        padding-bottom:10%;
     }
     .titresection{
      position:relative;
@@ -78,71 +310,122 @@
     }
     #conteneur4{
         flex-direction: column;
-        justify-content: stretch;
+        justify-content: space-between;
         align-items:center;
+        align-content: space-between;
         margin:auto;
         height:auto;
         width:auto;
     }
     .vieuxport{
+        background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+        background-repeat:no-repeat;
         display:flex;
+        max-width:100%;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         margin:auto;
-        min-width:100%;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
         overflow:hidden;
+    }
+    .vieuxport h3{
+        background-color:white;
+        margin-top:50%;
+        border-radius: 0px 0px 15px 15px;
     }
     .fortpomegues{
+        background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        max-width:100%;
         display:flex;
         flex-direction: column;
         margin:auto;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
-        min-width: 100%;
         overflow:hidden;
+    }
+    .fortpomegues h3{
+        background-color:white;
+        margin-top:50%;
+        padding:5% 5% 5% 5%;
+        border-radius: 0px 0px 15px 15px;
     }
     .ilesfrioul{
+        background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
         display:flex;
+        max-width:100%;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         margin:auto;
-        min-width:100%;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
         overflow:hidden;
+    }
+    .ilesfrioul h3{
+        background-color:white;
+        margin-top:50%;
+        padding:5% 5% 5% 5%;
+        border-radius: 0px 0px 15px 15px;
     }
     .parccalanques{
+        background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+        background-repeat:no-repeat;
         display:flex;
+        max-width:100%;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         margin:auto;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
-        min-width: 100%;
         overflow:hidden;
+    }
+    .parccalanques h3{
+        background-color:white;
+        margin-top:50%;
+        padding:5% 5% 5% 5%;
+        border-radius: 0px 0px 15px 15px;
     }
     .notredame{
+        background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
         display:flex;
+        max-width:100%;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         margin:auto;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
-        min-width: 100%;
         overflow:hidden;
     }
+    .notredame h3{
+        background-color:white;
+        margin-top:50%;
+        padding:5% 5% 5% 5%;
+        border-radius: 0px 0px 15px 15px;
+    }
     .longchamp{
+        background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+        background-repeat:no-repeat;
         display:flex;
+        max-width:100%;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         margin:auto;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
-        min-width: 100%;
         overflow:hidden;
+    }
+    .longchamp h3{
+        background-color:white;
+        margin-top:50%;
+        padding:5% 5% 5% 5%;
+        border-radius: 0px 0px 15px 15px;
     }
     #bouton{
         border:5px solid blue;
