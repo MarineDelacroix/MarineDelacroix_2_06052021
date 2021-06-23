@@ -5,7 +5,6 @@
  body{
         font-family: "Raleway";
         width: auto;
-        margin: auto;
     }
 h1{
         font-size: 1.5em;
@@ -23,15 +22,20 @@ a{
        color:black;
     }
     #filtres{
+        height:auto;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-between;
-        align-content: stretch;
+        align-content:space-around;
         font-size:1em;
+        margin: 5% 5% 5% 5%;
     }
     .desk{
         display:none;
+    }
+    h4{
+        margin-left:5%;
     }
     #filtres i{
         height:20px;
@@ -51,6 +55,7 @@ a{
     .element0:nth-child(1){
         justify-self:flex-start;
         align-self:stretch;
+        margin-top: 5%;
     }
     .element0:nth-child(2){
         color: #0065FC;
@@ -67,13 +72,20 @@ a{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
-        margin-left:80%;
+        margin-left:70%;
+        margin-top:-8%;
     }
     .info i{
         color:#0065FC;
         border:1px solid #F2F2F2;
         border-radius:50px 50px 50px 50px;
         padding:8px 12px 8px 12px;
+    }
+    p.info{
+        display:flex;
+        margin-left:5%;
+        margin-right:5%;
+        font-size:1.2em;
     }
     .bouton{
         background-color: white;
@@ -88,14 +100,16 @@ a{
     .formulaire{
         display:flex;
         max-height:50px;
+        margin: 5% 5% 5% 5%;
     }
     .localisation{
         display:flex;
     }
     .logoloc{
-        max-width:40px;
+        max-width:30px;
+        height:25px;
         background-color:#F2F2F2;
-        padding:2% 2% 1.5% 3%;
+        padding:4% 4% 5% 6%;
         border-radius:15px 0px 0px 15px;
     }
     #Recherche{
@@ -106,6 +120,7 @@ a{
         align-content: center;
         flex-wrap: wrap;
         max-width:90%;
+        margin: 5% 5% 5% 5%;
     }
     #recherche{
         border:2px solid #F2F2F2;
@@ -156,10 +171,10 @@ a{
         background-color: white;
         flex-wrap: nowrap;
         box-sizing:content-box;
-        width:100%;
-        width:300px;
+        width:335px;
         height:200px;
         margin-top:5%;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     #conteneur1{
         display:flex;
@@ -174,9 +189,10 @@ a{
         align-content: flex-end;
         text-align: justify;
         box-sizing:content-box;
+        height:80px;
         width:100%;
         border-radius: 0px 0px 15px 15px;
-        margin-top:50%;
+        margin-top:32%;
         padding-bottom:5%;
     }
     .stars{
@@ -220,6 +236,7 @@ a{
     }
     .conteneur3{
         display:flex;
+        width:100%;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -239,12 +256,13 @@ a{
         width:50px;
     }
     .element1{
-        width:350px;
-        height:150px;
+        width:335px;
+        height:145px;
         border:5px solid white;
         border-radius:15px 15px 15px 15px;
         background-color: white;
         overflow: hidden;
+        margin-top:5%;
     }
     .element1:nth-child(1){
         display:flex;
@@ -255,6 +273,7 @@ a{
         background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
         background-repeat: no-repeat;
         display:flex;
+        background-clip:content-box;
         flex-direction: column;
         align-items: flex-end;
     }
@@ -294,9 +313,9 @@ a{
     }
     #conteneur4{
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items:center;
-        align-content: space-between;
+        justify-content: space-between;
+        align-items:stretch;
+        align-content:space-between;
         height:auto;
         width:auto;
     }
@@ -304,11 +323,10 @@ a{
         background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
         background-repeat:no-repeat;
         display:flex;
-        height:50%;
-        max-width:80%;
-        height:auto;
+        background-clip:content-box;
+        height:200px;
+        width:335px;
         flex-direction: column;
-        justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
         margin:auto;
         box-shadow: 0px 15px 15px 0 #F2F2F2;
@@ -318,13 +336,15 @@ a{
         background-color:white;
         margin-top:50%;
         border-radius: 0px 0px 15px 15px;
+        padding:5% 5% 5% 5%;
     }
     .fortpomegues{
         background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
         background-repeat:no-repeat;
         background-size:cover;
-        height:50%;
-        max-width:80%;
+        background-clip:content-box;
+        height:200px;
+        width:335px;
         display:flex;
         flex-direction: column;
         margin:auto;
@@ -343,9 +363,10 @@ a{
         background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
         background-repeat:no-repeat;
         background-size:cover;
+        background-clip:content-box;
         display:flex;
-        height:50%;
-        max-width:80%;
+        height:200px;
+        width:335px;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
@@ -363,8 +384,9 @@ a{
         background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
         background-repeat:no-repeat;
         display:flex;
-        height:50%;
-        max-width:80%;
+        background-clip:content-box;
+        height:200px;
+        width:335px;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
@@ -382,9 +404,10 @@ a{
         background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
         background-repeat:no-repeat;
         background-size:cover;
+        background-clip:content-box;
         display:flex;
-        height:50%;
-        max-width:80%;
+        height:200px;
+        width:335px;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
@@ -402,8 +425,9 @@ a{
         background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
         background-repeat:no-repeat;
         display:flex;
-        height:50%;
-        max-width:80%;
+        background-clip:content-box;
+        height:200px;
+        width:335px;
         flex-direction: column;
         justify-content: flex-end;
         border-radius:15px 15px 15px 15px;
