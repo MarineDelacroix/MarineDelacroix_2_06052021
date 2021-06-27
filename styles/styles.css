@@ -259,6 +259,7 @@ div.heb{
     flex-wrap: nowrap;
     margin-bottom:10%;
     margin-top:5%;
+    white-space:nowrap;
 }
 .logochart:nth-child(1){
     flex-wrap: nowrap;
