@@ -226,14 +226,12 @@ a{
         background-repeat: no-repeat;
         background-size:100%;
         background-position:0% 260%;
-     
     }
     .element:nth-child(4){
         background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:0% 260%;
-        
     }
     .element:nth-child(5){
         background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
@@ -361,8 +359,8 @@ a{
     #Activites{
         margin-left:-25%;
     }
-   
     #conteneur4{
+        display:contents;
         flex-direction: column;
         justify-content:center;
         align-items:center;
@@ -527,7 +525,7 @@ a{
         display:flex;
         align-content:center;
     }
-}
+
 
 
 

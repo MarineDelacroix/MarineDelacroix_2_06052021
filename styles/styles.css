@@ -350,6 +350,7 @@ div.heb{
     margin-bottom:-3%;
 }
 #conteneur4{  
+    display:contents;
     display:flex;
     width:100%;
     justify-content: space-between;
@@ -502,6 +503,7 @@ ul{
     list-style-type:none;
 }
 #footer{
+    display:contents;
     max-width:150%;
     margin-top:3%;
     font-size: 1.2em;
