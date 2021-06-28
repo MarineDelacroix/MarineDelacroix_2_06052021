@@ -13,6 +13,7 @@ h1{
 h2{
         font-size:2em;
         font-weight:bold;
+        margin-left:-10%;
     }
     .bouton:hover{
        background-color: #0065FC;
@@ -22,20 +23,28 @@ a{
        color:black;
     }
     #filtres{
-        height:auto;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-between;
-        align-content:space-around;
+        align-content:space-between;
+        align-items:stretch;
         font-size:1em;
         margin: 5% 5% 5% 5%;
+    }
+    #filtres:last-child{
+        margin-top:5%;
+    }
+    .column{
+        margin-bottom:5%;
     }
     .desk{
         display:none;
     }
-    h4{
+    h4.mobile{
         margin-left:5%;
+        font-size:1.2em;
+        font-weight:bold;
     }
     #filtres i{
         height:20px;
@@ -100,7 +109,6 @@ a{
     .formulaire{
         display:flex;
         max-height:50px;
-        margin: 5% 5% 5% 5%;
     }
     .pc{
         display:none;
@@ -159,6 +167,7 @@ a{
     }
     .row{
         display:flex;
+        margin-bottom:5%;
     }
     .conteneur2{
         display:flex;
@@ -246,6 +255,15 @@ a{
         background-repeat: no-repeat;
 
     }
+    .pluspc{
+        white-space: nowrap;
+        margin-left:-60%;
+    }
+    .pluspc h4{
+        font-size:1.4em;
+        font-weight:bold;
+
+    }
     .conteneur3{
         display:flex;
         width:100%;
@@ -262,14 +280,19 @@ a{
     .logochart{
         display:flex;
         flex-direction:row;
-        align-items: stretch;
+        justify-content: flex-start;
+        align-items:center;
+        align-content:space-between;
         height:25px;
         flex-wrap: nowrap;
-        margin-bottom:10%;
+        margin-bottom:5%;
+        margin-top:5%;
+        white-space:nowrap;
+        margin-left:-15%;
     }
     .logochart img{
-        height:50px;
-        width:50px;
+        max-height:25px;
+        margin-left:20%;
     }
     .element1{
         width:335px;
@@ -331,7 +354,14 @@ a{
     }
     #conteneur3{
         margin-top:60px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
     }
+    #Activites{
+        margin-left:-25%;
+    }
+   
     #conteneur4{
         flex-direction: column;
         justify-content:center;
@@ -343,6 +373,8 @@ a{
     .vieuxport{
         background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
         background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
         display:flex;
         background-clip:content-box;
         height:200px;
@@ -363,6 +395,7 @@ a{
         background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
         background-repeat:no-repeat;
         background-size:cover;
+        background-position: center;
         background-clip:content-box;
         height:200px;
         width:335px;
@@ -405,6 +438,8 @@ a{
         background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
         background-repeat:no-repeat;
         display:flex;
+        background-position: center;
+        background-size: cover;
         background-clip:content-box;
         height:200px;
         width:335px;
@@ -445,6 +480,8 @@ a{
     .longchamp{
         background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
         background-repeat:no-repeat;
+        background-position: center;
+        background-size:cover;
         display:flex;
         background-clip:content-box;
         height:200px;
@@ -469,6 +506,13 @@ a{
     }
     #bouton{
         display:none;
+    }
+    #footer{
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start;
+        align-content: flex-start;
+        background-color:#F2F2F2;
     }
     .footer{
         flex-direction: column;
