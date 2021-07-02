@@ -4,6 +4,8 @@
 }
  body{
         font-family: "Raleway";
+        width:768px;
+        margin:auto;
     }
 h1{
         font-size: 1.5em;
@@ -32,12 +34,10 @@ a{
         flex-wrap: nowrap;
         justify-content:space-between;
         font-size:1em;
+        position:absolute;
     }
-    h4.mobile{
-        margin-bottom:-10%;
-        margin-right:3%;
-        margin-left:-1%;
-        font-size:1em;
+    .mobile{
+        display:none;
     }
     h4.desk{
         display:none;
@@ -136,6 +136,7 @@ a{
         align-items:center;
         flex-wrap: wrap;
         max-width:90%;
+        height:auto;
     }
     #recherche{
         border:2px solid #F2F2F2;
