@@ -3,23 +3,23 @@
     <head>
         <meta charset="utf-8"/>
         <meta name=viewport content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width:768px)" href="styles/Petite_resolution.css"/>
-        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width:1199px)" href="styles/Moyenne_resolution.css"/>
-        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="styles/styles.css"/>
-        <script src="https://kit.fontawesome.com/4eebba87fa.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width:768px)" href="styles/Petite_resolution.css"/> <!-- Version mobile -->
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width:1199px)" href="styles/Moyenne_resolution.css"/> <!--Version tablette-->
+        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="styles/styles.css"/> <!--Version pc/desktop-->
+        <script src="https://kit.fontawesome.com/4eebba87fa.js" crossorigin="anonymous"></script> <!--Lien vers bibliotheque en ligne icônes-->
         <title>Reservia</title>
     </head>
     <body>
-                                                                                  <!-- Header -->
-        <header>
-            <div id="menu">                                                       <!-- Menu vers ancres -->
+                                                                                  
+        <header>  <!--Header-->
+            <div id="menu">                                                       
                     <div class="element0">
                         <img alt="logo" src="styles/images/logo/Reservia.svg"/>
-                    </div>                                                        <!-- Logo Reservia -->
+                    </div>                                                        
                     <div class="element0">
-                    <a class="nav" href="#Hebergements">Hébergements</a>
-                    <a class="nav" href="#Activites">Activités</a>
-                    <a class="inscription" href="inscription.html"><strong>S'inscrire</strong></a></div>
+                    <a class="nav" href="#Hebergements">Hébergements</a> <!--element de menu pour toutes les versions-->
+                    <a class="nav" href="#Activites">Activités</a> <!--element de menu pour toutes les versions-->
+                    <a class="inscription" href="inscription.html"><strong>S'inscrire</strong></a></div> <!--Dispo differente selon version lien vers page vide-->
             </div>
             <div id="Recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -35,9 +35,9 @@
                     </p>
                 </form>
             </div>
-            <h4 class="mobile">Filtres</h4>
+            <h4 class="mobile">Filtres</h4> <!--Titre version mobile-->
             <div id="filtres">                                                         <!-- Filtres -->
-                    <div class="desk"><h4>Filtres</h4></div>
+                    <div class="desk"><h4>Filtres</h4></div> <!--Titre version pc/desktop-->
                     <div class="row"><i class="fas fa-money-bill-wave"></i><input type="button" class="bouton" value="Economique"  /></div>
                     <div class="row"><i class="fas fa-child"></i><input type="button" class="bouton" value="Familial"  /></div>
                     <div class="column"><i class="fas fa-heart"></i><input type="button" class="bouton" value="Romantique"  /></div>
@@ -49,9 +49,9 @@
                                                                                   <!-- Section 1 Hebergements -->
         <section id="Hebergements">
             <h2 class="titresection">Hébergements à Marseille</h2>
-            <div id="conteneur1">
+            <div id="conteneur1"> <!--conteneur pour conteneur2 et conteneur3-->
                 <div class="conteneur2">
-                    <div class="element"><a href="" style="width:100%;height:100%";>
+                    <div class="element"><a href="" style="width:100%;height:100%";> <!--définit la zone cliquable, le lien est vide-->
                         <div class="heb">
                             <h3><strong>Auberge la Cannebière</strong></h3>
                             <p class="prix">Nuit à partir de <strong>25€</strong></p>
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                 </div> 
-                <h2 class="titresection1">Hébergements à Marseille</h2>                                                                 <!-- Section 2 Les plus populaires -->
+                <h2 class="titresection1">Hébergements à Marseille</h2>   <!--Titre conteneur2 pour version mobile-->                                                              <!-- Section 2 Les plus populaires -->
                 <div class="conteneur3">
                     <div class="logochart"><h2>Les plus populaires</h2><img alt="logochart" src="styles/fontawesome/chart-line-solid.svg"/></div><!-- Titre section 2 + logo chart -->
                     <div class="element1"><a href="" style="width:100%;height:100%";>
@@ -126,12 +126,12 @@
             <h2 id="Activites">Activités à Marseille</h2>                           <!-- Ancre vers section 3 Activites-->
             <div id="conteneur4">
                 <div class="vieuxport"><a href="" style="width:100%;height:100%";><h3 class="name">Vieux Port</h3></a></div>
-                <div class="colonne1">
+                <div class="colonne1"> <!--Classe pour disposition flexbox version pc et tablette-->
                 <div class="fortpomegues"><a href="" style="width:100%;height:100%";><h3 class="name">Fort de Pomègues</h3></a></div>
                 <div class="ilesfrioul"><a href="" style="width:100%;height:100%";><h3 class="name">Iles du Frioul</h3></a></div>
                 </div>
                 <div class="parccalanques"><a href="" style="width:100%;height:100%";><h3 class="name">Parc National des Calanques</h3></a></div>
-                <div class="colonne2">
+                <div class="colonne2"> <!--Classe pour disposition flexbox version pc et tablette-->
                 <div class="notredame"><a href="" style="width:100%;height:100%";><h3 class="name">Notre-Dame-de-la-Garde</h3></a></div>
                 <div class="longchamp"><a href="" style="width:100%;height:100%";><h3 class="name">Parc Longchamp</h3></a></div>
                 </div>
