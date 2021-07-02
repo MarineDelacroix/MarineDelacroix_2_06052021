@@ -148,7 +148,7 @@ a{
     input#bouton{
         display:none;
     }
-    .smart{
+    #smart{
         display:none;
     }
     #bouton2{
@@ -157,13 +157,11 @@ a{
         border-radius:0px 15px 15px 0px;
         border:none;
         width:auto;
-        font-size: 1.5em;
+        font-size: 0em;
     }
     #loupe{
         margin-left:-10%;
         margin-top:7%;
-        
-
     }
     #menu a:hover{
         border-top:none;

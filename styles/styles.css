@@ -95,7 +95,7 @@ a{
     max-width: 45%;
     max-height:50px;
 }
-.smart{
+#smart{
     display:none;
 }
 ::placeholder{
