@@ -34,7 +34,7 @@ a{
         flex-wrap: nowrap;
         justify-content:space-between;
         font-size:1em;
-        position:absolute;
+        
     }
     .mobile{
         display:none;
@@ -78,7 +78,7 @@ a{
         font-size:1.2em;
         font-weight:bold;
         position:absolute;
-        margin-left:85%;
+        margin-left:62%;
         margin-top:-4%;
     }
     .info i{
@@ -97,7 +97,6 @@ a{
         font-size:1.2em;
         margin-left:-0.5%;
         margin-bottom:-2%;
-        margin-top:-5%;
         font-size:0.8em;
     }
     .bouton{
@@ -226,40 +225,40 @@ a{
         flex-direction: row;
         color:#0065FC;
     }
-    .element:nth-child(2){
+    .element:nth-child(1){
         background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
         background-size:100%;
         background-position:0% 200%;
         background-repeat: no-repeat;
     }
-    .element:nth-child(3){
+    .element:nth-child(2){
         background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
         background-repeat: no-repeat;
         background-size:100%;
         background-position:0% 260%;
      
     }
-    .element:nth-child(4){
+    .element:nth-child(3){
         background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:0% 260%;
         
     }
-    .element:nth-child(5){
+    .element:nth-child(4){
         background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:0% 100%;
         
     }
-    .element:nth-child(6){
+    .element:nth-child(5){
         background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
         background-size:cover;
         background-position:0% 300%;
         background-repeat: no-repeat;
     }
-    .element:nth-child(7){
+    .element:nth-child(6){
         background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
         background-size: 100%;
         background-position:0% 70%;
@@ -293,8 +292,8 @@ a{
         flex-direction:row;
         justify-content:space-evenly;
         align-items:baseline;
-        padding-bottom:7%;
         margin-left:2%;
+        margin-bottom:1%;
     }
     .logochart1 img{
         height:15px;
@@ -346,7 +345,7 @@ a{
     }
     .nom{
         display:flex;
-        height:auto;
+        height:100%;;
         flex-direction: column;
         align-items: flex-start;
         align-content: flex-start;
@@ -396,8 +395,8 @@ a{
     .vieuxport{
         background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
         background-repeat:no-repeat;
+        background-size:100%;
         display:flex;
-        background-clip:content-box;
         height:250px;
         width:400px;
         margin:5% 0% 5% 0%;
@@ -415,8 +414,8 @@ a{
     .fortpomegues{
         background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
         background-repeat:no-repeat;
-        background-size:cover;
-        background-clip:content-box;
+        background-size:100%;
+        background-position:center;
         height:200px;
         width:335px;
         display:flex;
@@ -436,8 +435,7 @@ a{
     .ilesfrioul{
         background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
         background-repeat:no-repeat;
-        background-size:cover;
-        background-clip:content-box;
+        background-size:100%;
         display:flex;
         height:200px;
         width:335px;
@@ -458,8 +456,8 @@ a{
     .parccalanques{
         background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
         background-repeat:no-repeat;
+        background-size:100%;
         display:flex;
-        background-clip:content-box;
         height:250px;
         width:400px;
         flex-direction: column;
@@ -478,8 +476,7 @@ a{
     .notredame{
         background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
         background-repeat:no-repeat;
-        background-size:cover;
-        background-clip:content-box;
+        background-size:100%;
         display:flex;
         height:200px;
         width:335px;
@@ -499,8 +496,8 @@ a{
     .longchamp{
         background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
         background-repeat:no-repeat;
+        background-size:100%;
         display:flex;
-        background-clip:content-box;
         height:200px;
         width:335px;
         flex-direction: column;
