@@ -83,8 +83,9 @@ a{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
+        width:100%;
         margin-left:70%;
-        margin-top:-8%;
+        margin-top:-5%;
     }
     .info i{
         color:#0065FC;
@@ -135,7 +136,7 @@ a{
         max-width:90%;
         margin: 5% 5% 5% 5%;
     }
-    #recherche{
+    .recherche{
         border:2px solid #F2F2F2;
         font-size: 1.2em;
         font-weight: medium;
@@ -144,13 +145,16 @@ a{
     ::placeholder{
         color:black;
     }
-    #bouton{
+    #bouton2{
         background-color: #0065FC;
         border-radius:0px 15px 15px 0px;
         color:white;
         border:none;
         width:auto;
         font-size: 1.5em;
+    }
+    #bouton{
+        display:none;
     }
     #menu a:hover{
         border-top:none;

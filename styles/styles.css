@@ -110,7 +110,7 @@ a{
     padding:2% 2% 1.5% 3%;
     border-radius:15px 0px 0px 15px;
 }
-#recherche{
+.recherche{
     border:2px solid #F2F2F2;
     font-size: 2em;
     font-weight: medium;
