@@ -4,7 +4,6 @@
 }
  body{
         font-family: "Raleway";
-        width: auto;
         max-width:400px;
         margin:auto;
     }
@@ -120,10 +119,10 @@ a{
         display:flex;
     }
     .logoloc{
-        max-width:30px;
-        height:25px;
+        border-radius:15px 0px 0px 15px;
+        max-width:20px;
         background-color:#F2F2F2;
-        padding:4% 4% 5% 6%;
+        padding:4% 4% 4% 5%;
         border-radius:15px 0px 0px 15px;
     }
     #Recherche{
@@ -155,6 +154,10 @@ a{
     }
     #bouton{
         display:none;
+    }
+    #loupe{
+        margin-left:-10%;
+        margin-top:5%;
     }
     #menu a:hover{
         border-top:none;
@@ -221,38 +224,38 @@ a{
         flex-direction: row;
         color:#0065FC;
     }
-    .element:nth-child(2){
+    .element:nth-child(1){
         background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
         background-size:100%;
         background-position:0% 200%;
         background-repeat: no-repeat;
     }
-    .element:nth-child(3){
+    .element:nth-child(2){
         background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
         background-repeat: no-repeat;
         background-size:100%;
         background-position:0% 260%;
     }
-    .element:nth-child(4){
+    .element:nth-child(3){
         background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:0% 260%;
     }
-    .element:nth-child(5){
+    .element:nth-child(4){
         background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:0% 100%;
         
     }
-    .element:nth-child(6){
+    .element:nth-child(5){
         background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
         background-size:cover;
         background-position:0% 300%;
         background-repeat: no-repeat;
     }
-    .element:nth-child(7){
+    .element:nth-child(6){
         background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
         background-size: 100%;
         background-position:0% 70%;
@@ -316,8 +319,8 @@ a{
         background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
         background-repeat: no-repeat;
         display:flex;
-        background-size:cover;
-        background-position:200% 50%;
+        background-size:100%;
+        background-position:220% 60%;
         background-clip:content-box;
         flex-direction: column;
         align-items: flex-end;
@@ -325,6 +328,8 @@ a{
     .element1:nth-child(3){
         background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
         background-repeat:no-repeat;
+        background-position:0% 50%;
+        background-size:80%;
         display:flex;
         flex-direction: column;
         background-clip:content-box;
@@ -333,6 +338,8 @@ a{
     .element1:nth-child(4){
         background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
         background-repeat:no-repeat;
+        background-size:100%;
+        background-position:20% 55%;
         display:flex;
         flex-direction: column;
         background-clip:content-box;
@@ -342,19 +349,22 @@ a{
         display:flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: space-around;
-        margin-left:35%;
+        height:145px;;
+        justify-content:flex-start;
+        align-content:flex-start;
+        margin-left:45%;
         background-color: white;
         padding-left:5%;
-        padding-bottom:10%;
-    }
-    .titresection1{
-        display:none;
+        padding-bottom:15%;
     }
     .titresection{
+        display:none;
+    }
+    .titresection1{
      position:relative;
      display:flex;
-     align-items: flex-start;
+     align-items: center;
+     margin-left:5%;
     }
     #conteneur3{
         margin-top:60px;
@@ -507,6 +517,12 @@ a{
         background-color:#0065FC;
         border-radius: 0px 15px 15px 0px;
         padding:20px 20px 20px 20px;
+        background-color: #0065FC;
+        background-repeat:no-repeat;
+        border-radius:0px 15px 15px 0px;
+        border:none;
+        width:auto;
+        font-size: 0em;
     }
     #bouton{
         display:none;
