@@ -70,7 +70,6 @@ a{
     .element0:nth-child(2){
         color: #0065FC;
         width:100%;
-        font-size: bold;
         display:flex;
         flex-direction: row;
         justify-content:stretch;
@@ -126,7 +125,6 @@ a{
         border-radius:15px 0px 0px 15px;
     }
     #Recherche{
-        font-weight: 500px;
         font-size: 1.2em;
         display:flex;
         align-items: center;
@@ -138,7 +136,6 @@ a{
     .recherche{
         border:2px solid #F2F2F2;
         font-size: 1.2em;
-        font-weight: medium;
         width:100%;
     }
     ::placeholder{
@@ -381,7 +378,6 @@ a{
         justify-content:center;
         align-items:center;
         align-content:center;
-        max-height:auto;
         width:auto;
     }
     .vieuxport{

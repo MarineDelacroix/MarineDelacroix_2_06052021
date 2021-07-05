@@ -48,7 +48,6 @@ a{
 .element0:nth-child(2){
     justify-self: flex-end;
     color: #0065FC;
-    font-size: bold;
     display:flex;
     justify-content:space-around;
     width:30%;
@@ -113,7 +112,6 @@ a{
 .recherche{
     border:2px solid #F2F2F2;
     font-size: 2em;
-    font-weight: medium;
 }
 #bouton{
     background-color: #0065FC;
@@ -167,7 +165,7 @@ a{
     width:250px;
     height:200px;
     margin-top:5%;
-    box-shadow:5px #F2F2F2;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     padding-bottom:1%;
     overflow:hidden;
 }
@@ -330,8 +328,6 @@ div.heb{
     justify-content: space-between;
     text-align:end;
     align-items: flex-end;
-    background-clip:text;
-    background-position: relative;
     justify-content: flex-end;
     overflow:hidden;
 }
@@ -496,7 +492,7 @@ div.heb{
 }
 #filtres i{
     color:#0065FC;
-    border:15px 15px 15px 15px solid #F2F2F2;
+    border:15px solid #F2F2F2;
 
 }
 ul{
