@@ -543,8 +543,10 @@ a{
         display:flex;
         align-content:center;
     }
-
-
+    .cliquable{
+        width:100%;
+        height:100%;
+    }
 
 
 
