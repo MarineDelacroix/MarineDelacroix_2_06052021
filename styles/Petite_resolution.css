@@ -4,7 +4,7 @@
 }
  body{
         font-family: "Raleway";
-        max-width:400px;
+        min-width:320px;
         margin:auto;
     }
 h1{

@@ -5,6 +5,7 @@
  body{
         font-family: "Raleway";
         min-width:768px;
+        max-width:1024px;
         margin:auto;
     }
 h1{
@@ -144,15 +145,11 @@ a{
     input#bouton{
         display:none;
     }
-    #smart{
-        display:none;
-    }
     #bouton2{
         background-color: #0065FC;
         background-repeat:no-repeat;
         border-radius:0px 15px 15px 0px;
         border:none;
-        width:auto;
         font-size: 0em;
     }
     #loupe{
