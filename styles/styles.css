@@ -67,6 +67,7 @@ a{
     font-size:1.2em;
 }
 #filtres i{
+    color:#0065FC;
     height:20px;
     border:2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
@@ -489,9 +490,6 @@ div.heb{
 }
 .prix{
     font-size:1em;
-}
-#filtres i{
-    color:#0065FC;
 }
 ul{
     list-style-type:none;
