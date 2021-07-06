@@ -3,8 +3,8 @@
     src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
 }
 body{
-    min-width:1220px;
-    max-width:1450px;
+    min-width:1199px;
+    flex:auto;
     font-family: "Raleway";
     margin:auto;
 }
@@ -145,6 +145,7 @@ article#conteneur2{
     width:70%;
     max-height:630px;
     display:flex;
+    flex:auto;
     flex-direction:column;
     border:2px solid white;
     justify-content:space-evenly;
@@ -166,28 +167,41 @@ div#line2{
 figure.element{
     border-radius:15px 15px 15px 15px;
     width:max-content;
+    border:5px solid white;
 }
 figcaption{
     max-height:50%;
-    border-radius:15px 15px 15px 15px;
     background-color:white;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
     align-content:space-around;
 }
+figcaption.s2{
+    display:flex;
+    flex-direction:row;
+}
 .back{
     width:250px;
+    height:120px;
+    object-fit:cover;
+    border-radius:15px 15px 0px 0px;
+}
+.back3{
+    width:300px;
     height:150px;
     object-fit:cover;
-    border-radius:15px 15px 15px 15px;
+}
+.back4{
+    width:350px;
+    height:400px;
 }
 .titresection1{
     display:none;
 }
 .titresection{
-    margin-bottom:-4%;
-    margin-left:4%;
+    margin-bottom:-3%;
+    margin-left:3%;
     position:relative;
     z-index:2;    
 }
@@ -303,6 +317,15 @@ article#conteneur3{
 }
 ul{
     list-style-type:none;
+}
+ul.heb{
+    font-size:1.2em;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-content:space-evenly;
+    align-items:flex-start;
+    margin-left:-10%;
 }
 #footer{
     display:contents;
