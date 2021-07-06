@@ -4,7 +4,7 @@
 }
 body{
     min-width:1199px;
-    flex:auto;
+    flex: 1 1 auto;
     font-family: "Raleway";
     margin:auto;
 }
@@ -63,7 +63,8 @@ a{
 #filtres{
     display:flex;
     justify-content:space-between;
-    width:60%;
+    flex-wrap:wrap;
+    max-width:60%;
     font-size:1.2em;
 }
 #filtres i{
@@ -145,7 +146,7 @@ article#conteneur2{
     width:70%;
     max-height:630px;
     display:flex;
-    flex:auto;
+    flex:1 1 auto;
     flex-direction:column;
     border:2px solid white;
     justify-content:space-evenly;
@@ -255,29 +256,20 @@ article#conteneur3{
     flex-wrap: nowrap;
 }
 
-.element1{
+figure.element1{
+    min-width:100px;
     width:350px;
     height:150px;
-    border:5px solid white;
+    flex: 1 1 auto;
     border-radius:15px 15px 15px 15px;
-    background-color: white;
-    overflow: hidden;
+}
+img.back2{
+    object-fit:cover;
 }
 .element1:nth-child(1){
     display:flex;
     justify-content: space-around;
     align-items: baseline;
-}
-
-.nom{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin-left:35%;
-    background-color: white;
-    padding-left:5%;
-    padding-bottom:10%;
 }
 #Activites{
     margin-top: 5%;
@@ -326,6 +318,9 @@ ul.heb{
     align-content:space-evenly;
     align-items:flex-start;
     margin-left:-10%;
+}
+li.nom{
+    font-weight:bold;
 }
 #footer{
     display:contents;
