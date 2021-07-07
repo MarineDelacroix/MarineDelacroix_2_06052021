@@ -196,6 +196,7 @@ a{
         background-color: white;
         flex-wrap: nowrap;
         box-sizing:content-box;
+        overflow:hidden;
         width:335px;
         height:200px;
         margin-top:5%;
