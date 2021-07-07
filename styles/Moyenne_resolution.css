@@ -40,6 +40,9 @@ a{
     h4.desk{
        display:none;
     }
+    .mobile{
+        display:none;
+    }
     #filtres i{
         height:20px;
         border:2px solid #F2F2F2;
@@ -109,7 +112,7 @@ a{
         display:flex;
         max-height:50px;
     }
-    .pc{
+    #pc{
         display:none;
     }
     .localisation{
@@ -336,16 +339,8 @@ a{
     .element1:nth-child(1){
         display:none;
     }
-    .nom{
-        display:flex;
-        height:100%;
-        flex-direction: column;
-        align-items: flex-start;
-        align-content: flex-start;
-        justify-content: space-evenly;
-        margin-left:35%;
-        background-color: white;
-        padding-left:5%;
+    li.nom{
+        font-weight:bold;
     }
     .nom h3{
         font-size:1em;

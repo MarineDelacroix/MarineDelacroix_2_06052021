@@ -291,7 +291,7 @@ figure.element1{
 #conteneur4{  
     display:contents;
     display:flex;
-    width:100%;
+    width:auto;
     justify-content: space-between;
     align-content:space-between;
     align-items:stretch;
