@@ -2,14 +2,15 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
-        <meta name=viewport content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width:768px)" href="styles/Petite_resolution.css"/> <!-- Version mobile -->
-        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width:1199px)" href="styles/Moyenne_resolution.css"/> <!--Version tablette-->
-        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="styles/styles.css"/> <!--Version pc/desktop-->
+        <meta name=viewport content="width=device-width">
+        <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:768px)" href="styles/Petite_resolution.css"/> <!-- Version mobile -->
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width:991px)" href="styles/Moyenne_resolution.css"/> <!--Version tablette-->
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="styles/styles.css"/> <!--Version pc/desktop-->
         <script src="https://kit.fontawesome.com/4eebba87fa.js" crossorigin="anonymous"></script> <!--Lien vers bibliotheque en ligne icônes-->
         <title>Reservia</title>
     </head>
     <body>
+        <div id="bloc_page">
                                                                                   
         <header>  <!--Header-->
             <div id="menu">                                                       
@@ -23,7 +24,7 @@
             </div>
             <div id="Recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
+                <p>En plein centre ville ou en pleine nature</p><br>
                 <!-- Barre de recherche et bouton -->
                 <form method="post" action="traitement.php">
                     <p class="formulaire"> 
@@ -257,6 +258,6 @@
             </div>
             
         </footer>
-        
+    </div>
     </body>
 </html>

@@ -4,6 +4,9 @@
 }
  body{
         font-family: "Raleway";
+        
+    }
+    #bloc_page{
         width:auto;
         flex:1 1 auto;
         margin:auto;
@@ -93,7 +96,7 @@ a{
         flex-direction:row;
         align-items:baseline;
         align-content:center;
-        font-size:1.2em;
+        font-size:1.1em;
         margin-left:-0.5%;
         margin-bottom:-2%;
         font-size:0.8em;
@@ -102,7 +105,7 @@ a{
         background-color: white;
         border:2px solid #F2F2F2;
         border-radius: 40px 40px 40px 40px;
-        font-size:1.2em;
+        font-size:1.1em;
         font-weight:600;
         padding: 20px 20px 20px 20px;
         padding-left:60px;
@@ -125,7 +128,7 @@ a{
         border-radius:15px 0px 0px 15px;
     }
     #Recherche{
-        font-size: 1.2em;
+        font-size: 1.1em;
         display:flex;
         flex-direction: column;
         justify-content:center;
@@ -136,7 +139,7 @@ a{
     }
     .recherche{
         border:2px solid #F2F2F2;
-        font-size: 1.2em;
+        font-size: 1.1em;
         width:100%;
     }
     ::placeholder{
@@ -193,8 +196,6 @@ a{
         background-color: white;
         flex-wrap: nowrap;
         box-sizing:content-box;
-        width:335px;
-        height:200px;
         margin-top:5%;
         box-shadow:5px 5px 5px 5px #F2F2F2;
     }
@@ -206,28 +207,17 @@ a{
     #conteneur1{
         display:flex;
         flex-direction: column-reverse;
+        flex-wrap:wrap;
         justify-content: space-between;
         position:relative;
         width:auto;
-    }
-    div.heb{
-        background-color: white;
-        flex-direction: column;
-        align-content: flex-end;
-        text-align: justify;
-        box-sizing:content-box;
-        height:80px;
-        width:100%;
-        border-radius: 0px 0px 15px 15px;
-        margin-top:32%;
-        padding-bottom:5%;
     }
     .stars{
         display:flex;
         flex-direction: row;
         color:#0065FC;
     }
-    section#conteneur3{
+    article#conteneur3{
         display:flex;
         width:100%;
         padding-bottom:25px;
@@ -246,7 +236,7 @@ a{
         max-height:630px;
         display:flex;
         flex:1 1 auto;
-        flex-direction:column;
+        flex-direction:row;
         border:2px solid white;
         justify-content:space-evenly;
         background-color: #F2F2F2;
@@ -254,12 +244,14 @@ a{
     }
     div#line1{
         display:flex;
+        flex:auto;
         flex-direction:row;
         justify-content:center;
         align-content:center;
     }
     div#line2{
         display:flex;
+        flex:auto;
         flex-direction:row;
         justify-content:center;
         align-content:center;
@@ -367,6 +359,8 @@ a{
  
     #Activites{
         display:flex;
+        flex-wrap:wrap;
+        flex:auto;
         margin-top:5%;
         margin-right:51%;
     }
@@ -374,7 +368,7 @@ a{
         height:auto;
         display:flex;
         flex-direction: column;
-        flex-wrap:nowrap;
+        flex-wrap:wrap;
         justify-content:space-evenly;
         align-items:center;
         align-content:space-evenly;
@@ -401,6 +395,7 @@ a{
     #footer{
         display:flex;
         flex-direction:row;
+        flex-wrap:wrap;
         align-items: center;
         align-content: center;
         margin-top:5%;

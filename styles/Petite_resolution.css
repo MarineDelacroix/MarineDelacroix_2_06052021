@@ -2,12 +2,15 @@
     font-family: "Raleway";
     src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
 }
+
  body{
         font-family: "Raleway";
-        width:auto;
-        margin:auto;
-        overflow-x:hidden;
     }
+#bloc_page{
+    width:auto;
+    margin:auto;
+    overflow-x:hidden;
+}
 h1{
         font-size: 1.5em;
         font-weight:bold;
@@ -16,6 +19,7 @@ h2{
         font-size:2em;
         font-weight:bold;
         margin-left:-10%;
+        
     }
     .bouton:hover{
        background-color: #0065FC;
@@ -44,7 +48,6 @@ a{
         display:none;
     }
     h4.mobile{
-        margin-left:5%;
         font-size:1.2em;
         font-weight:bold;
     }
@@ -83,7 +86,6 @@ a{
         font-weight:bolder;
         position:absolute;
         width:100%;
-        margin-left:70%;
         margin-top:-5%;
     }
     .info i{
@@ -94,7 +96,6 @@ a{
     }
     p.info{
         display:flex;
-        margin-left:5%;
         margin-right:5%;
         font-size:1.2em;
     }
@@ -154,7 +155,6 @@ a{
         display:none;
     }
     #loupe{
-        margin-left:-10%;
         margin-top:5%;
     }
     #menu a:hover{
@@ -224,7 +224,6 @@ a{
     }
     .pluspc{
         white-space: nowrap;
-        margin-left:-60%;
     }
     .pluspc h4{
         font-size:1.4em;
@@ -243,10 +242,9 @@ a{
     }
     article#conteneur2{
         border:2px solid white;
-        width:70%;
-        max-height:630px;
+        width:auto;
+        height:auto;
         display:flex;
-        flex:1 1 auto;
         flex-direction:column;
         border:2px solid white;
         justify-content:space-evenly;
@@ -255,13 +253,13 @@ a{
     }
     div#line1{
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
         justify-content:center;
         align-content:center;
     }
     div#line2{
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
         justify-content:center;
         align-content:center;
     }
@@ -321,11 +319,9 @@ a{
         margin-bottom:5%;
         margin-top:5%;
         white-space:nowrap;
-        margin-left:-15%;
     }
     .logochart img{
         max-height:25px;
-        margin-left:20%;
     }
     figure.element1{
         width:335px;
@@ -360,7 +356,6 @@ a{
         align-items:center;
     }
     #Activites{
-        margin-left:-25%;
     }
     article#conteneur4{
         display:contents;

@@ -136,22 +136,28 @@ a{
     border-radius:50px 50px 50px 50px;
     padding:8px 12px 8px 12px;
 }
+#Hebergements{
+    width:auto;
+    flex:auto;
+}
 #conteneur1{
     display:flex;
+    min-width:992px;
     flex-wrap:nowrap;
     flex-direction:row;
     justify-content:space-between;
     align-items: stretch;
     width:auto;
+    flex:auto;
     border:2px solid white;
     text-align: end;
 }
 article#conteneur2{
     border:2px solid white;
-    width:70%;
-    max-height:630px;
+    width:auto;
+    height:630px;
     display:flex;
-    flex:1 1 auto;
+    flex:auto;
     flex-direction:column;
     border:2px solid white;
     justify-content:space-evenly;
@@ -161,40 +167,45 @@ article#conteneur2{
 div#line1{
     display:flex;
     flex-direction:row;
+    width:auto;
     justify-content:center;
     align-content:center;
 }
 div#line2{
     display:flex;
     flex-direction:row;
+    width:auto;
     justify-content:center;
     align-content:center;
 }
 figure.element{
     border-radius:15px 15px 15px 15px;
     min-width:150px;
-    width:max-content;
+    width:100%;
     border:5px solid white;
-    flex:auto;
+    overflow:hidden;
+    flex: auto;
 }
 figcaption{
-    max-height:50%;
+    height:50%;
     background-color:white;
     display:flex;
+    flex-wrap:nowrap;
     flex-direction:column;
     align-items:flex-start;
     align-content:space-around;
+    overflow:hidden;
 }
 figcaption.s2{
     display:inline-block;
     vertical-align:top;
-    height:100%;
-    width:200px;
+    width:max-content;
+    background-color:white;
 }
 .back{
-    max-width:250px;
-    min-width:150px;
+    flex:auto;
     height:120px;
+    width:100%;
     object-fit:cover;
     border-radius:15px 15px 0px 0px;
 }
@@ -202,6 +213,7 @@ figcaption.s2{
     width:120px;
     height:150px;
     object-fit:cover;
+    border-radius:15px 0px 0px 15px;
 }
 .back3{
     width:300px;
@@ -242,7 +254,8 @@ article#conteneur3{
     align-items:center;
     border:2px solid white;
     height:628px;
-    width:30%;
+    width:auto;
+    flex:auto;
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
     margin-left:5%;
@@ -275,6 +288,7 @@ figure.element1{
     width:max-content;
     display:flex;
     align-items:flex-start;
+    flex:auto;
     border-radius:15px 15px 15px 15px;
     border:5px solid white;
 }
@@ -331,6 +345,8 @@ ul{
 ul.heb{
     font-size:1.2em;
     display:flex;
+    flex-wrap:nowrap;
+    flex:auto;
     flex-direction:column;
     justify-content:flex-start;
     align-content:space-evenly;
