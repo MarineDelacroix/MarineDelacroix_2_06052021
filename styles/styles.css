@@ -294,6 +294,7 @@ figure.element1{
     width:max-content;
     display:flex;
     align-items:flex-start;
+    background-color:white;
     flex:auto;
     border-radius:15px 15px 15px 15px;
     border:5px solid white;

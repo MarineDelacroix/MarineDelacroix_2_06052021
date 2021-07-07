@@ -8,7 +8,6 @@
     }
     #bloc_page{
         width:auto;
-        flex:1 1 auto;
         margin:auto;
         overflow-x:hidden;
     }
@@ -81,7 +80,6 @@ a{
         font-size:1.2em;
         font-weight:bold;
         position:absolute;
-        margin-left:70%;
         margin-top:-4%;
     }
     .info i{
@@ -97,7 +95,6 @@ a{
         align-items:baseline;
         align-content:center;
         font-size:1.1em;
-        margin-left:-0.5%;
         margin-bottom:-2%;
         font-size:0.8em;
     }
@@ -362,7 +359,6 @@ a{
         flex-wrap:wrap;
         flex:auto;
         margin-top:5%;
-        margin-right:51%;
     }
     #conteneur4{
         height:auto;

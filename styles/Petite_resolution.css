@@ -19,7 +19,7 @@ h2{
         font-size:2em;
         font-weight:bold;
         margin-left:-10%;
-        
+
     }
     .bouton:hover{
        background-color: #0065FC;
@@ -286,7 +286,7 @@ a{
     }
     .back{
         max-width:250px;
-        min-width:150px;
+        min-width:250px;
         height:120px;
         object-fit:cover;
         border-radius:15px 15px 0px 0px;
@@ -294,16 +294,25 @@ a{
     .back2{
         width:120px;
         height:150px;
+        border-radius:15px 0px 0px 15px;
         object-fit:cover;
     }
     .back3{
         width:300px;
         height:150px;
+        border-radius:15px 15px 0px 0px;
         object-fit:cover;
     }
     .back4{
-        width:350px;
-        height:400px;
+        width:300px;
+        height:150px;
+        border-radius:15px 15px 0px 0px;
+        object-fit:cover;
+    }
+    #conteneur4 figcaption{
+        width:300px;
+        height:100%;
+        border-radius:0px 0px 15px 15px;
     }
     .logochart1{
         display:none;
@@ -324,13 +333,14 @@ a{
         max-height:25px;
     }
     figure.element1{
-        width:335px;
-        height:145px;
-        border:5px solid white;
-        border-radius:15px 15px 15px 15px;
-        background-color: white;
-        overflow: hidden;
-        margin-top:5%;
+         width:max-content;
+         display:flex;
+         align-items:flex-start;
+         background-color:white;
+         flex:auto;
+         border-radius:15px 15px 15px 15px;
+         border:5px solid white;
+    }
     }
     .element1:nth-child(1){
         display:flex;
@@ -355,7 +365,39 @@ a{
         flex-direction:column;
         align-items:center;
     }
-    #Activites{
+    #Activites h2{
+        display:flex;
+        justify-content:center;
+    }
+    figure.vieuxport{
+        flex:auto;
+        object-fit:cover;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+    }
+    figure.fortpomegues{
+        flex:auto;
+        object-fit:cover;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+    }
+    figure.ilesfrioul{
+        flex:auto;
+        object-fit:cover;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+    }
+    figure.parccalanques{
+        flex:auto;
+        object-fit:cover;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+    }
+    figure.notredame{
+        flex:auto;
+        object-fit:cover;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+    }
+    figure.longchamp{
+        flex:auto;
+        object-fit:cover;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     article#conteneur4{
         display:contents;
@@ -371,7 +413,6 @@ a{
         padding:20px 20px 20px 20px;
         background-color: #0065FC;
         background-repeat:no-repeat;
-        border-radius:0px 15px 15px 0px;
         border:none;
         width:auto;
         font-size: 0em;
