@@ -290,7 +290,6 @@ a{
         width:200px;
     }
     .back{
-        max-width:px;
         min-width:250px;
         height:120px;
         object-fit:cover;
@@ -420,7 +419,7 @@ a{
         align-content:center;
         width:auto;
     }
-    section#conteneur3{
+    section#conteneur33{
         display: flex;
         flex-direction: column;
         justify-content: center;
