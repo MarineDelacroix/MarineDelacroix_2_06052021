@@ -4,9 +4,10 @@
 }
  body{
         font-family: "Raleway";
-        min-width:768px;
-        max-width:1199px;
+        width:auto;
+        flex:1 1 auto;
         margin:auto;
+        overflow-x:hidden;
     }
 h1{
         font-size: 1.5em;
@@ -32,10 +33,9 @@ a{
         height:auto;
         display:flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap:wrap;
         justify-content:space-between;
         font-size:1em;
-        
     }
     h4.desk{
        display:none;
@@ -173,7 +173,7 @@ a{
     .row{
         display:flex;
     }
-    .conteneur2{
+    article#conteneur2{
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -224,47 +224,7 @@ a{
         flex-direction: row;
         color:#0065FC;
     }
-    .element:nth-child(1){
-        background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-        background-size:100%;
-        background-position:0% 200%;
-        background-repeat: no-repeat;
-    }
-    .element:nth-child(2){
-        background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size:100%;
-        background-position:0% 260%;
-     
-    }
-    .element:nth-child(3){
-        background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position:0% 260%;
-        
-    }
-    .element:nth-child(4){
-        background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position:0% 100%;
-        
-    }
-    .element:nth-child(5){
-        background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-        background-size:cover;
-        background-position:0% 300%;
-        background-repeat: no-repeat;
-    }
-    .element:nth-child(6){
-        background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-        background-size: 100%;
-        background-position:0% 70%;
-        background-repeat: no-repeat;
-
-    }
-    .conteneur3{
+    section#conteneur3{
         display:flex;
         width:100%;
         padding-bottom:25px;
@@ -276,6 +236,72 @@ a{
         background-color:#F2F2F2;
         margin-top:-3%;
         border-radius:15px 15px 15px 15px;
+    }
+    article#conteneur2{
+        border:2px solid white;
+        width:70%;
+        max-height:630px;
+        display:flex;
+        flex:1 1 auto;
+        flex-direction:column;
+        border:2px solid white;
+        justify-content:space-evenly;
+        background-color: #F2F2F2;
+        border-radius: 15px 15px 15px 15px;
+    }
+    div#line1{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-content:center;
+    }
+    div#line2{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-content:center;
+    }
+    figure.element{
+        border-radius:15px 15px 15px 15px;
+        min-width:150px;
+        width:max-content;
+        border:5px solid white;
+        flex:auto;
+    }
+    figcaption{
+        max-height:50%;
+        background-color:white;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        align-content:space-around;
+    }
+    figcaption.s2{
+        display:inline-block;
+        vertical-align:top;
+        height:100%;
+        width:200px;
+    }
+    .back{
+        max-width:250px;
+        min-width:150px;
+        height:120px;
+        object-fit:cover;
+        border-radius:15px 15px 0px 0px;
+    }
+    .back2{
+        width:120px;
+        height:150px;
+        object-fit:cover;
+    }
+    .back3{
+        width:300px;
+        height:150px;
+        object-fit:cover;
+    }
+    .back4{
+        width:350px;
+        height:400px;
     }
     h3{
         font-size:1em;
@@ -298,7 +324,7 @@ a{
         height:15px;
         width:15px;
     }
-    .element1{
+    figure.element1{
         width:200px;
         height:100px;
         border:5px solid white;
@@ -309,38 +335,6 @@ a{
     }
     .element1:nth-child(1){
         display:none;
-    }
-    .element1:nth-child(2){
-        background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position:center;
-        display:flex;
-        background-size:cover;
-        background-position:200% 50%;
-        background-clip:content-box;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    .element1:nth-child(3){
-        background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:cover;
-        background-position:center;
-        display:flex;
-        flex-direction: column;
-        background-clip:content-box;
-        justify-content: flex-end;
-    }
-    .element1:nth-child(4){
-        background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:cover;
-        background-position:center;
-        display:flex;
-        flex-direction: column;
-        background-clip:content-box;
-        justify-content: flex-end;
     }
     .nom{
         display:flex;
@@ -390,128 +384,6 @@ a{
         align-items:center;
         align-content:space-evenly;
         width:auto;
-    }
-    .vieuxport{
-        background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:100%;
-        display:flex;
-        height:250px;
-        width:400px;
-        margin:5% 0% 5% 0%;
-        flex-direction: column;
-        border-radius:15px 15px 15px 15px;
-        box-shadow: 0px 15px 15px 0 #F2F2F2;
-        overflow:hidden;
-    }
-    .vieuxport h3{
-        background-color:white;
-        margin-top:50%;
-        border-radius: 0px 0px 15px 15px;
-        padding:5% 5% 5% 5%;
-    }
-    .fortpomegues{
-        background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:100%;
-        background-position:center;
-        height:200px;
-        width:335px;
-        display:flex;
-        flex-direction: column;
-        margin:5% 0% 5% 0%;
-        justify-content: flex-end;
-        border-radius:15px 15px 15px 15px;
-        box-shadow: 0px 15px 15px 0 #F2F2F2;
-        overflow:hidden;
-    }
-    .fortpomegues h3{
-        background-color:white;
-        margin-top:49%;
-        padding:5% 5% 5% 5%;
-        border-radius: 0px 0px 15px 15px;
-    }
-    .ilesfrioul{
-        background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:100%;
-        display:flex;
-        height:200px;
-        width:335px;
-        flex-direction: column;
-        justify-content: flex-end;
-        border-radius:15px 15px 15px 15px;
-        margin:5% 0% 5% 0%;
-        box-shadow: 0px 15px 15px 0 #F2F2F2;
-        overflow:hidden;
-        margin-left:5%;
-    }
-    .ilesfrioul h3{
-        background-color:white;
-        margin-top:49%;
-        padding:5% 5% 5% 5%;
-        border-radius: 0px 0px 15px 15px;
-    }
-    .parccalanques{
-        background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:100%;
-        display:flex;
-        height:250px;
-        width:400px;
-        flex-direction: column;
-        justify-content: flex-end;
-        border-radius:15px 15px 15px 15px;
-        margin:5% 0% 5% 0%;
-        box-shadow: 0px 15px 15px 0 #F2F2F2;
-        overflow:hidden;
-    }
-    .parccalanques h3{
-        background-color:white;
-        margin-top:50%;
-        padding:5% 5% 5% 5%;
-        border-radius: 0px 0px 15px 15px;
-    }
-    .notredame{
-        background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:100%;
-        display:flex;
-        height:200px;
-        width:335px;
-        flex-direction: column;
-        justify-content: flex-end;
-        border-radius:15px 15px 15px 15px;
-        margin:5% 0% 5% 0%;
-        box-shadow: 0px 15px 15px 0 #F2F2F2;
-        overflow:hidden;
-    }
-    .notredame h3{
-        background-color:white;
-        margin-top:49%;
-        padding:5% 5% 5% 5%;
-        border-radius: 0px 0px 15px 15px;
-    }
-    .longchamp{
-        background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-        background-repeat:no-repeat;
-        background-size:100%;
-        display:flex;
-        height:200px;
-        width:335px;
-        flex-direction: column;
-        justify-content: flex-end;
-        border-radius:15px 15px 15px 15px;
-        margin:5% 0% 5% 0%;
-        box-shadow: 0px 15px 15px 0 #F2F2F2;
-        overflow:hidden;
-        margin-left:5%;
-    }
-    .longchamp h3{
-        background-color:white;
-        margin-top:49%;
-        padding:5% 5% 5% 5%;
-        border-radius: 0px 0px 15px 15px;
     }
     .colonne1{
         display:flex;
