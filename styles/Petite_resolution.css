@@ -247,6 +247,7 @@ a{
         height:auto;
         display:flex;
         flex-direction:column;
+        align-items:center;
         border:2px solid white;
         justify-content:space-evenly;
         background-color: #F2F2F2;
@@ -286,7 +287,7 @@ a{
         width:200px;
     }
     .back{
-        max-width:250px;
+        max-width:px;
         min-width:250px;
         height:120px;
         object-fit:cover;
@@ -299,7 +300,8 @@ a{
         object-fit:cover;
     }
     .back3{
-        width:300px;
+        min-width:300px;
+        flex:auto;
         height:150px;
         border-radius:15px 15px 0px 0px;
         object-fit:cover;
@@ -374,32 +376,38 @@ a{
     }
     figure.vieuxport{
         flex:auto;
+        width:fit-content;
         object-fit:cover;
         box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     figure.fortpomegues{
         flex:auto;
         object-fit:cover;
+        width:fit-content;
         box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     figure.ilesfrioul{
         flex:auto;
         object-fit:cover;
+        width:fit-content;
         box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     figure.parccalanques{
         flex:auto;
         object-fit:cover;
+        width:fit-content;
         box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     figure.notredame{
         flex:auto;
         object-fit:cover;
+        width:fit-content;
         box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     figure.longchamp{
         flex:auto;
         object-fit:cover;
+        width:fit-content;
         box-shadow:15px 15px 15px 15px #F2F2F2;
     }
     article#conteneur4{
@@ -409,6 +417,12 @@ a{
         align-items:center;
         align-content:center;
         width:auto;
+    }
+    section#conteneur3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     #bouton2{     
         background-color:#0065FC;
