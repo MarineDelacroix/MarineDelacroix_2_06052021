@@ -63,12 +63,14 @@ a{
 }
 
 #filtres{
+    display:inline-block;
     display:flex;
+    flex-direction:row;
     justify-content:space-between;
     flex-wrap:wrap;
-    max-width:60%;
+    max-width:55%;
     width:auto;
-    font-size:1.2em;
+    font-size:1.1em;
 }
 #filtres i{
     color:#0065FC;
@@ -78,6 +80,7 @@ a{
     background-color: #DEEBFF;
     padding:20px 20px 20px 20px;
     display:flex;
+    object-fit:cover;
     position:absolute;
 }
 .bouton{
