@@ -207,7 +207,7 @@ a{
     #conteneur1{
         display:flex;
         flex-direction: column-reverse;
-        align-items:flex-start;
+        align-items:center;
         flex-wrap:wrap;
         justify-content: space-between;
         position:relative;
@@ -218,14 +218,19 @@ a{
         flex-direction: row;
         color:#0065FC;
     }
+    #Hebergements{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
     article#conteneur3{
         display:flex;
         width:auto;
-        padding-bottom:50px;;
         flex-direction:column;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         align-items:flex-start;
         align-content:center;
+        margin-bottom:5%;
         background-color:#F2F2F2;
     }
     #pop{
@@ -243,8 +248,10 @@ a{
         display:flex;
         flex:1 1 auto;
         flex-direction:row;
+        align-content:center;
+        margin-top:5%;
         border:2px solid white;
-        justify-content:space-between;
+        justify-content:space-evenly;
         background-color: #F2F2F2;
         border-radius: 15px 15px 15px 15px;
     }
@@ -253,12 +260,14 @@ a{
         flex:auto;
         flex-direction:column;
         justify-content:center;
+        align-items:center;
         align-content:center;
     }
     div#line2{
         display:flex;
         flex:auto;
         flex-direction:column;
+        align-items:center;
         justify-content:center;
         align-content:center;
     }
@@ -293,6 +302,7 @@ a{
     .back2{
         width:120px;
         height:150px;
+        border-radius:15px 0px 0px 15px;
         object-fit:cover;
     }
     .back3{
@@ -321,7 +331,7 @@ a{
         justify-content:space-evenly;
         align-items:baseline;
         margin-left:2%;
-        margin-bottom:1%;
+        margin-bottom:5%;
     }
     .logochart1 img{
         height:15px;
@@ -341,6 +351,18 @@ a{
         display:flex;
         flex-wrap:nowrap;
         flex:auto;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-content:space-evenly;
+        align-items:flex-start;
+        margin-left:-10%;
+    }
+    ul.heb1{
+        font-size:1em;
+        white-space:nowrap;
+        display:flex;
+        flex:auto;
+        flex-wrap:nowrap;
         flex-direction:column;
         justify-content:flex-start;
         align-content:space-evenly;
@@ -425,6 +447,14 @@ a{
     ul{
         list-style-type:none;
     }
+    .heb1 li{
+        display:flex;
+        margin-top:8%;
+    }
+    li.stars1{
+        margin-top:20%;
+        color:#0065FC;
+    }
     .apropos{
         display:flex;
         align-content:center;
@@ -434,6 +464,8 @@ a{
     width:100%;
     height:100%;
 }
-
+.none{
+    display:none;
+}
 
 

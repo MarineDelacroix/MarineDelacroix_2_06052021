@@ -284,10 +284,7 @@ a{
         align-content:space-around;
     }
     figcaption.s2{
-        display:inline-block;
-        vertical-align:top;
-        height:100%;
-        width:200px;
+        width:max-content;
     }
     .back{
         min-width:250px;
@@ -349,7 +346,7 @@ a{
     .element1:nth-child(1){
         display:flex;
         justify-content: space-around;
-        align-items: baseline;
+        align-items: flex-start;
     }
     li.nom{
         font-weight:bold;
@@ -454,13 +451,24 @@ a{
     ul{
         list-style-type:none;
     }
+    .heb1 li{
+        display:flex;
+        margin-top:8%;
+    }
+    li.stars1{
+        margin-top:20%;
+        color:#0065FC;
+    }
     .apropos{
         display:flex;
         align-content:center;
     }
     .cliquable{
-        width:100%;
+        width:max-content;
         height:100%;
+    }
+    .none{
+        display:none;
     }
 
 
