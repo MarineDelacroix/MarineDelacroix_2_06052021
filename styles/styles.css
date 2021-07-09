@@ -77,9 +77,10 @@ a{
 }
 #filtres i{
     color:#0065FC;
-    height:20px;
+    height:15px;
+    width:15px;
     border:2px solid #F2F2F2;
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 50px;
     background-color: #DEEBFF;
     padding:20px 20px 20px 20px;
     display:flex;
@@ -89,12 +90,12 @@ a{
 .bouton{
     background-color: white;
     border:2px solid #F2F2F2;
-    border-radius: 40px 40px 40px 40px;
-    font-size:1.2em;
+    border-radius: 50px;
+    font-size:1.1em;
     font-weight:600;
-    padding: 20px 20px 20px 20px;
     padding-left:60px;
     width:100%;
+    height:60px;
 }
 .mobile{
     display:none;
@@ -261,7 +262,7 @@ figcaption.fig3{
 .pluspc{
     position:relative;
     margin-top:-4%;
-    margin-left:2%;
+    margin-left:5%;
 }
 .pluspc h4{
     font-size: 1.2em;
@@ -307,9 +308,13 @@ article#conteneur3{
 }
 .logochart img{
     max-height:25px;
+    margin-left:30%;
 }
 .logochart:nth-child(1){
     flex-wrap: nowrap;
+}
+h2#conteneur3{
+    margin-left:30%;
 }
 figure.element1{
     width:auto;
@@ -472,6 +477,7 @@ h4{
 }
 .footer{
     display:flex;
+    width:70%;
     flex-direction: row;
     justify-content:space-between;
     align-content: flex-start;
@@ -495,5 +501,6 @@ h4{
     align-items:baseline;
     margin-left:5%;
     margin-bottom:-5%;
+    margin-top:-5%;
 }
 
