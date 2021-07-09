@@ -209,7 +209,7 @@ figcaption{
     align-content:space-around;
     overflow:hidden;
 }
-figcaption.s2{;
+figcaption.s2{
     width:max-content;
 }
 figcaption.fig3{
@@ -330,10 +330,6 @@ figure.element1{
 #Activites{
     margin-top: 5%;
     margin-bottom:-3%;
-}
-h2#Activites{
-
-
 }
 section#conteneur33{
     align-items:center;
