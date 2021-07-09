@@ -21,6 +21,9 @@ h2{
         font-weight:bold;
         white-space: nowrap;
     }
+h2#Activites{
+    display:none;
+}
 h4{
     font-size:1.1em;
     font-weight:bold;
@@ -80,10 +83,7 @@ a{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
-        width:100%;
-        margin-top:-5%;
-        display:flex;
-        justify-content:flex-end;
+        margin-left:90%;
     }
     .info i{
         color:#0065FC;
@@ -134,7 +134,7 @@ a{
         justify-content:center;
         align-items:center;
         flex-wrap: wrap;
-        max-width:90%;
+        margin-bottom:5%;
         height:auto;
     }
     .recherche{
@@ -227,6 +227,7 @@ a{
         display:flex;
         width:auto;
         flex-direction:column;
+        border-radius:15px 15px 15px 15px;
         justify-content: space-evenly;
         align-items:flex-start;
         align-content:center;
@@ -291,6 +292,9 @@ a{
         vertical-align:top;
         height:100%;
         width:200px;
+    }
+    figcaption.fig3{
+        font-weight:bold;
     }
     .back{
         max-width:250px;
