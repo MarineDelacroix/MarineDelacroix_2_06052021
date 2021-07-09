@@ -85,10 +85,7 @@ a{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
-        width:100%;
-        margin-top:-5%;
-        display:flex;
-        justify-content:flex-end;
+        margin-left:85%;
     }
     .info i{
         color:#0065FC;
@@ -131,6 +128,7 @@ a{
     #Recherche{
         font-size: 1.2em;
         display:flex;
+        flex-direction:column;
         align-items: center;
         align-content: center;
         flex-wrap: wrap;
@@ -293,8 +291,9 @@ a{
         border-radius:15px 15px 0px 0px;
     }
     .back2{
-        width:120px;
+        width:140px;
         height:150px;
+        border-left:5px solid white;
         border-radius:15px 0px 0px 15px;
         object-fit:cover;
     }
@@ -310,6 +309,9 @@ a{
         height:150px;
         border-radius:15px 15px 0px 0px;
         object-fit:cover;
+    }
+    #pop1 ul{
+        padding-right:20px;
     }
     #conteneur4 figcaption{
         width:300px;
@@ -336,6 +338,7 @@ a{
     }
     figure.element1{
          width:max-content;
+         min-width:300px;
          display:flex;
          align-items:flex-start;
          background-color:white;
@@ -366,11 +369,11 @@ a{
         flex-direction:column;
         align-items:center;
     }
-    #Activites h2{
-        display:flex;
-        justify-content:center;
-        align-content:center;
-        align-items:center;
+    h2#Activites{
+        display:none;
+    }
+    figcaption.fig3{
+        font-weight:bold;
     }
     figure.vieuxport{
         flex:auto;
