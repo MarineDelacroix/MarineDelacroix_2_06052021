@@ -144,8 +144,10 @@ a{
     }
     .recherche{
         border:2px solid #F2F2F2;
-        font-size: 1.1em;
-        width:100%;
+        font-size: 1.3em;
+        font-weight:bold;
+        width:60%;
+        padding-left:2%;
     }
     ::placeholder{
         color:black;
@@ -223,6 +225,7 @@ a{
         display:flex;
         flex-direction: row;
         color:#0065FC;
+        font-size:1em;
     }
     #Hebergements{
         display:flex;
@@ -301,6 +304,7 @@ a{
     }
     figcaption.fig3{
         font-weight:bold;
+        font-size:1.4em;
     }
     .back{
         max-width:250px;
@@ -357,7 +361,6 @@ a{
          border:5px solid white;
     }
     ul.heb{
-        font-size:1.2em;
         display:flex;
         flex-wrap:nowrap;
         flex:auto;
@@ -461,9 +464,16 @@ a{
         display:flex;
         margin-top:8%;
     }
+    li{
+       
+    }
+    li.stars{
+        font-size:1em;
+    }
     li.stars1{
         margin-top:20%;
         color:#0065FC;
+        font-size:1em;
     }
     .apropos{
         display:flex;

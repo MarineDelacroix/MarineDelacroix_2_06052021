@@ -140,8 +140,10 @@ a{
     }
     .recherche{
         border:2px solid #F2F2F2;
-        font-size: 1.2em;
-        width:100%;
+        font-size: 1.3em;
+        font-weight:bold;
+        width:60%;
+        padding-left:2%;
     }
     ::placeholder{
         color:black;
@@ -227,6 +229,7 @@ a{
         display:flex;
         flex-direction: row;
         color:#0065FC;
+        font-size:1em;
     }
     .pluspc{
         white-space: nowrap;
@@ -390,7 +393,7 @@ a{
             width:200px;
             background-color:white;
             font-weight:bold;
-            font-size:1.2em;
+            font-size:1.4em;
             padding:5%;
     }
     figure.vieuxport{
@@ -477,6 +480,9 @@ a{
     .heb1 li{
         display:flex;
         margin-top:8%;
+    }
+    li{
+        font-size:1.2em;
     }
     li.stars1{
         margin-top:20%;

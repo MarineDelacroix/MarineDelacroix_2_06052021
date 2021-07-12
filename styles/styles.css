@@ -21,6 +21,9 @@ h2{
     font-size:2em;
     font-weight:bold;
 }
+p{
+    font-size:1.3em;
+}
 .bouton:hover{
    background-color: #0065FC;
 }
@@ -70,11 +73,16 @@ a{
     display:inline-block;
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    align-items:center;
+    justify-content:space-between;
     flex-wrap:wrap;
     max-width:70%;
     width:auto;
     font-size:1.1em;
+}
+.desk h4{
+    font-size:1.3em;
+    font-weight:bolder;
 }
 #loupe{
     display:none;
@@ -118,7 +126,6 @@ a{
 }
 ::placeholder{
     color:black;
-    font-size:0.8em;
 }
 .localisation{
     display:flex;
@@ -131,7 +138,10 @@ a{
 }
 .recherche{
     border:2px solid #F2F2F2;
-    font-size: 2em;
+    font-size: 1.3em;
+    font-weight:bold;
+    width:40%;
+    padding-left:2%;
 }
 #bouton{
     background-color: #0065FC;
@@ -139,7 +149,7 @@ a{
     color:white;
     border:none;
     width:auto;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 #bouton2{
     display:none;
@@ -216,7 +226,6 @@ figcaption{
     flex-direction:column;
     align-items:flex-start;
     align-content:space-around;
-    overflow:hidden;
 }
 figcaption.s2{
     width:max-content;
@@ -225,7 +234,8 @@ figcaption.fig3{
     width:200px;
     background-color:white;
     font-weight:bold;
-    font-size:1.2em;
+    font-size:1.4em;
+    white-space:nowrap;
     padding:5%;
 
 }
@@ -263,6 +273,7 @@ figcaption.fig3{
     display:flex;
     flex-direction: row;
     color:#0065FC;
+    font-size:1em;
 }
 .pluspc h4{
     position:relative;
@@ -347,7 +358,6 @@ figure.element1{
     margin-top:5%;
 }
 #conteneur4 figure{
-    overflow:hidden;
     border-radius:15px 15px 15px 15px;
 }
 
@@ -427,7 +437,6 @@ ul{
 }
 ul.heb{
     font-size:1em;
-    white-space:nowrap;
     display:flex;
     flex-wrap:nowrap;
     flex-direction:column;
@@ -451,13 +460,16 @@ ul.heb1{
     display:flex;
     margin-top:8%;
 }
+li{
+    font-size:1.2em;
+}
 li.stars1{
-    margin-top:30%;
+    margin-top:20%;
     color:#0065FC;
 }
 li.nom{
     font-weight:bold;
-    font-size:1.2em;
+    font-size:1.4em;
 }
 #footer{
     display:contents;
