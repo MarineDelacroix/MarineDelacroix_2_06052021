@@ -140,9 +140,9 @@ a{
     }
     .recherche{
         border:2px solid #F2F2F2;
-        font-size: 1.3em;
+        font-size: 1.1em;
         font-weight:bold;
-        width:60%;
+        width:150%;
         padding-left:2%;
     }
     ::placeholder{
@@ -160,8 +160,8 @@ a{
         display:none;
     }
     #loupe{
-        margin-top:5%;
-        margin-left:-8%;
+        margin-top:6%;
+        margin-left:-10%;
         color:white;
     }
     #menu a:hover{
@@ -280,6 +280,7 @@ a{
     figure.element{
         border-radius:15px 15px 15px 15px;
         min-width:150px;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
         width:max-content;
         border:5px solid white;
         flex:auto;
@@ -358,17 +359,18 @@ a{
          align-items:flex-start;
          background-color:white;
          flex:auto;
+         box-shadow:15px 15px 15px 15px #F2F2F2;
          border-radius:15px 15px 15px 15px;
          border:5px solid white;
     }
     .element1:nth-child(1){
         display:flex;
         align-items: flex-start;
-        width:400px;
+        width:320px;
     }
     li.nom{
         font-weight:bold;
-        font-size:1.4em;
+        font-size:1.2em;
     }
     .titresection{
         display:none;
@@ -449,7 +451,7 @@ a{
     #bouton2{     
         background-color:#0065FC;
         border-radius: 0px 15px 15px 0px;
-        padding:20px 20px 20px 20px;
+        padding:20px 20px 20px 30px;
         background-color: #0065FC;
         background-repeat:no-repeat;
         border:none;

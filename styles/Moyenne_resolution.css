@@ -17,7 +17,7 @@ h1{
         font-weight:bold;
     }
 h2{
-        font-size:1.6em;
+        font-size:1.8em;
         font-weight:bold;
         white-space: nowrap;
     }
@@ -104,7 +104,7 @@ a{
         align-content:center;
         font-size:1.1em;
         margin-bottom:-2%;
-        font-size:0.8em;
+        font-size:1.2em;
     }
     .bouton{
         background-color: white;
@@ -114,7 +114,7 @@ a{
         font-weight:600;
         padding-left:60px;
         width:100%;
-        height:60px;
+        height:50px;
     }
     .formulaire{
         display:flex;
@@ -144,9 +144,9 @@ a{
     }
     .recherche{
         border:2px solid #F2F2F2;
-        font-size: 1.3em;
+        font-size: 1em;
         font-weight:bold;
-        width:60%;
+        width:100%;
         padding-left:2%;
     }
     ::placeholder{
@@ -297,14 +297,18 @@ a{
         align-content:space-around;
     }
     figcaption.s2{
-        display:inline-block;
-        vertical-align:top;
-        height:100%;
-        width:200px;
+        width:max-content;
     }
     figcaption.fig3{
+        width:200px;
+        background-color:white;
         font-weight:bold;
         font-size:1.4em;
+        white-space:nowrap;
+        padding:5%;
+    }
+    #conteneur4 figure{
+        border-radius:15px 15px 15px 15px;
     }
     .back{
         max-width:250px;
@@ -314,7 +318,7 @@ a{
         border-radius:15px 15px 0px 0px;
     }
     .back2{
-        width:120px;
+        width:200px;
         height:150px;
         border-radius:15px 0px 0px 15px;
         object-fit:cover;
@@ -352,7 +356,7 @@ a{
         width:15px;
     }
     figure.element1{
-         width:max-content;
+         width:450px;
          display:flex;
          align-items:center;
          background-color:white;
@@ -374,7 +378,6 @@ a{
         font-size:1em;
         white-space:nowrap;
         display:flex;
-        flex:auto;
         flex-wrap:nowrap;
         flex-direction:column;
         justify-content:flex-start;
@@ -385,6 +388,7 @@ a{
   
     li.nom{
         font-weight:bold;
+        font-size:1.5em;
     }
     .nom h3{
         font-size:1em;
@@ -421,6 +425,43 @@ a{
         align-items:center;
         align-content:center;
         width:auto;
+    }
+    figure.vieuxport{
+        width:fit-content;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+        display:inline-block;
+        object-fit:cover;
+    }
+    figure.fortpomegues{
+        width:fit-content;
+        display:inline-block;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+        object-fit:cover;
+    }
+    figure.ilesfrioul{
+        width:fit-content;
+        display:inline-block;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+        object-fit:cover;
+    }
+    figure.parccalanques{
+        width:fit-content;
+        display:inline-block;
+        padding:0px 0px 0px 0px;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+        object-fit:cover;
+    }
+    figure.notredame{
+        width:fit-content;
+        display:inline-block;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+        object-fit:cover;
+    }
+    figure.longchamp{
+        width:fit-content;
+        display:inline-block;
+        box-shadow:15px 15px 15px 15px #F2F2F2;
+        object-fit:cover;
     }
     .colonne1{
         display:flex;
@@ -465,7 +506,7 @@ a{
         margin-top:8%;
     }
     li{
-       
+       font-size:1.3em;
     }
     li.stars{
         font-size:1em;
@@ -481,11 +522,14 @@ a{
     }
 
 .cliquable{
-    width:100%;
+    width:max-content;
     height:100%;
 }
 .none{
     display:none;
+}
+p{
+    font-size:1.3em;
 }
 
 
