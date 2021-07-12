@@ -35,7 +35,7 @@ a{
         justify-content:space-between;
         align-content:space-between;
         align-items:stretch;
-        font-size:1em;
+        font-size:1.1em;
         margin: 5% 5% 5% 5%;
     }
     #filtres:last-child{
@@ -52,15 +52,13 @@ a{
         font-weight:bold;
     }
     #filtres i{
-        height:20px;
-        border:2px solid #F2F2F2;
-        border-radius: 40px 40px 40px 40px;
+        color:#0065FC;
+        border-radius: 50px;
         background-color: #DEEBFF;
         padding:20px 20px 20px 20px;
         display:flex;
         position:absolute;
-        height:20px;
-        color:#0065FC;
+        object-fit:cover;
     }
     #menu a:hover{
        border-top:2px solid #0065FC;
@@ -102,11 +100,11 @@ a{
         background-color: white;
         border:2px solid #F2F2F2;
         border-radius: 50px;
-        font-size:1.1em;
-        font-weight:600;
+        font-size:1.4em;
+        font-weight:bold;
         padding-left:60px;
         width:100%;
-        height:60px;
+        height:50px;
     }
     .formulaire{
         display:flex;
@@ -229,19 +227,19 @@ a{
         white-space: nowrap;
     }
     .pluspc h4{
-        font-size:1.4em;
+        font-size:1.5em;
         font-weight:bold;
 
     }
     article#conteneur3{
         display:flex;
-        width:100%;
+        min-width:100%;
         padding-bottom:50px;;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         background-color:#F2F2F2;
-        margin-top:15%;
+        margin-top:0%;
     }
     article#conteneur2{
         border:2px solid white;
@@ -286,27 +284,27 @@ a{
         width:max-content;
     }
     .back{
-        min-width:250px;
-        height:120px;
+        width:335px;
+        height:200px;
         object-fit:cover;
         border-radius:15px 15px 0px 0px;
     }
     .back2{
-        width:140px;
+        width:130px;
         height:150px;
         border-left:5px solid white;
         border-radius:15px 0px 0px 15px;
         object-fit:cover;
     }
     .back3{
-        min-width:300px;
+        min-width:335px;
         flex:auto;
         height:150px;
         border-radius:15px 15px 0px 0px;
         object-fit:cover;
     }
     .back4{
-        width:300px;
+        width:335px;
         height:150px;
         border-radius:15px 15px 0px 0px;
         object-fit:cover;
@@ -318,6 +316,10 @@ a{
         width:300px;
         height:100%;
         border-radius:0px 0px 15px 15px;
+    }
+    #conteneur4 figure{
+        overflow:hidden;
+        border-radius:15px 15px 15px 15px;
     }
     .logochart1{
         display:none;
@@ -349,11 +351,12 @@ a{
     }
     .element1:nth-child(1){
         display:flex;
-        justify-content: space-around;
         align-items: flex-start;
+        width:400px;
     }
     li.nom{
         font-weight:bold;
+        font-size:1.4em;
     }
     .titresection{
         display:none;
@@ -367,6 +370,7 @@ a{
     article#conteneur3{
         margin-top:60px;
         display:flex;
+        margin-top:0%;
         flex-direction:column;
         align-items:center;
     }
@@ -374,7 +378,11 @@ a{
         display:none;
     }
     figcaption.fig3{
-        font-weight:bold;
+            width:200px;
+            background-color:white;
+            font-weight:bold;
+            font-size:1.2em;
+            padding:5%;
     }
     figure.vieuxport{
         flex:auto;
@@ -454,6 +462,8 @@ a{
     }
     ul{
         list-style-type:none;
+        padding-left:5%;
+        white-space: nowrap;
     }
     .heb1 li{
         display:flex;
