@@ -4,14 +4,10 @@
 }
 body{
     font-family: "Raleway";
-    overflow-x:hidden;
 }
 #bloc_page{
-    min-width:1024px;
     width:1440px;
-    overflow-x:hidden;
     margin:auto;
-    flex: auto;
 }
 h1{
     font-size: 2em;
@@ -171,17 +167,17 @@ a{
 }
 #conteneur1{
     display:flex;
-    min-width:100%;
     flex-wrap:nowrap;
     flex-direction:row;
     justify-content:space-evenly;
     align-items: stretch;
-    width:100%;
+    width:95%;
     border:2px solid white;
 }
 article#conteneur2{
     border:2px solid white;
     min-width:75%;
+    max-width:75%;
     height:auto;
     display:flex;
     flex-direction:column;
@@ -211,10 +207,9 @@ div#line2{
 }
 figure.element{
     border-radius:15px 15px 15px 15px;
-    min-width:150px;
-    max-width:280px;
     margin:0%;
-    width:100%;
+    max-width:25%;
+    flex:0 0 auto;
     border:5px solid white;
     box-shadow:15px 15px 15px 15px #F2F2F2;
     overflow:hidden;
@@ -288,22 +283,22 @@ figcaption.fig3{
 article#conteneur3{
     flex-direction: column;
     display:flex;
-    justify-content:space-evenly;
-    align-items:center;
     border:2px solid white;
-    min-width:30%;
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
 }
 #pop{
-    min-width:50%;
+    max-width:80%;
+    flex:0 0 auto;
     
 }
 #pop1{
-    min-width:50%;
+    max-width:80%;
+    flex:0 0 auto;
 }
-#pop3{
-    min-width:50%;
+#pop2{
+    max-width:80%;
+    flex:0 0 auto;
 }
 .logochart1{
     display:none;
@@ -311,15 +306,12 @@ article#conteneur3{
 .logochart{
     display:flex;
     flex-direction:row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items:center;
     align-content:space-between;
     height:25px;
-    flex-wrap: nowrap;
-    margin-bottom:10%;
     margin-top:5%;
     white-space:nowrap;
-    margin-left:-30%;
 }
 .logochart img{
     max-height:25px;
@@ -332,11 +324,11 @@ h2#conteneur3{
     margin-left:30%;
 }
 figure.element1{
-    width:auto;
-    height:auto;
+    max-width:80%;
+    flex:0 0 auto;
     display:flex;
     flex-direction:row;
-    align-items:flex-start;
+    align-items:center;
     background-color:white;
     box-shadow:15px 15px 15px 15px #F2F2F2;
     border-radius:15px 15px 15px 15px;
@@ -345,7 +337,7 @@ figure.element1{
 .element1:nth-child(1){
     display:flex;
     align-items:flex-start;
-    min-width:345px;
+    min-width:100%;
 }
 #Activites{
     margin-top: 5%;
