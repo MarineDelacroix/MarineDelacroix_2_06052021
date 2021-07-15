@@ -22,7 +22,7 @@ h2{
         white-space: nowrap;
     }
 h2#Activites{
-    display:none;
+    visibility:hidden;
 }
 h4{
     font-size:1.1em;
@@ -88,7 +88,7 @@ a{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
-        margin-left:90%;
+        margin-left:85%;
     }
     .info i{
         color:#0065FC;
@@ -292,6 +292,7 @@ a{
         max-height:50%;
         background-color:white;
         display:flex;
+        border-radius:15px 15px 15px 15px;
         flex-direction:column;
         align-items:flex-start;
         align-content:space-around;
@@ -342,18 +343,19 @@ a{
         display:none;
     }
     .logochart1{
-        height:25px;
-        width:25%;
         display:flex;
         flex-direction:row;
-        justify-content:space-evenly;
-        align-items:baseline;
-        margin-left:2%;
-        margin-bottom:5%;
+        justify-content: center;
+        align-items:center;
+        align-content:space-between;
+        height:25px;
+        margin-top:5%;
+        white-space:nowrap;
     }
     .logochart1 img{
-        height:15px;
-        width:15px;
+        height:25px;
+        width:20px;
+        margin-left:50px;
     }
     figure.element1{
          width:450px;
@@ -388,7 +390,7 @@ a{
   
     li.nom{
         font-weight:bold;
-        font-size:1.5em;
+        font-size:1.3em;
     }
     .nom h3{
         font-size:1em;
@@ -530,6 +532,9 @@ a{
 }
 p{
     font-size:1.3em;
+}
+.grey{
+    color:#F2F2F2;
 }
 
 

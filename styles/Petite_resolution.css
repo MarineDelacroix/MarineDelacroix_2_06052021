@@ -88,7 +88,7 @@ a{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
-        margin-left:85%;
+        margin-left:80%;
     }
     .info i{
         color:#0065FC;
@@ -250,7 +250,7 @@ a{
         margin-top:0%;
     }
     #conteneur3 h2{
-        margin-right:100px;
+        margin-right:50px;
         margin-left:0%;
     }
     article#conteneur2{
@@ -389,7 +389,7 @@ a{
         align-items:center;
     }
     h2#Activites{
-        display:none;
+        visibility:hidden;
     }
     figcaption.fig3{
             width:200px;
@@ -500,6 +500,9 @@ a{
     }
     .none{
         display:none;
+    }
+    .grey{
+        color:#F2F2F2;
     }
 
 
