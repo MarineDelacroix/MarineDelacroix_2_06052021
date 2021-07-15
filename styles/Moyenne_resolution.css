@@ -200,7 +200,6 @@ a{
         display:flex;
         flex-direction: column;
         justify-content: flex-end;
-        border:5px solid white;
         border-radius: 15px 15px 15px 15px;
         background-color: white;
         flex-wrap: nowrap;
@@ -286,7 +285,6 @@ a{
         border-radius:15px 15px 15px 15px;
         min-width:150px;
         width:max-content;
-        border:5px solid white;
         flex:auto;
     }
     figcaption{
@@ -317,6 +315,7 @@ a{
         min-width:250px;
         height:120px;
         object-fit:cover;
+        border:5px solid white;
         border-radius:15px 15px 0px 0px;
     }
     .back2{
