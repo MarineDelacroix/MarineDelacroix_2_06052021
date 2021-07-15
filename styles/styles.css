@@ -10,11 +10,11 @@ body{
     margin:auto;
 }
 h1{
-    font-size: 20px;
+    font-size: 25px;
     font-weight:bold;
 }
 h2{
-    font-size:20px;
+    font-size:22px;
     font-weight:bold;
 }
 p{
@@ -148,7 +148,7 @@ a{
     border:none;
     padding:2%;
     width:auto;
-    font-size: 13px;
+    font-size: 17px;
 }
 #bouton2{
     display:none;
