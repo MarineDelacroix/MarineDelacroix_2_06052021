@@ -10,15 +10,15 @@ body{
     margin:auto;
 }
 h1{
-    font-size: 2em;
+    font-size: 20px;
     font-weight:bold;
 }
 h2{
-    font-size:2em;
+    font-size:20px;
     font-weight:bold;
 }
 p{
-    font-size:1.3em;
+    font-size:13px;
 }
 .bouton:hover{
    background-color: #0065FC;
@@ -35,7 +35,8 @@ a{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    font-size:1.2em;
+    align-items:center;
+    font-size:12px;
     font-weight:bold;
     max-width:100%;
     width:auto;
@@ -57,7 +58,7 @@ a{
     justify-content:space-around;
     width:30%;
     max-width:50%;
-    font-size: 1.2em;
+    font-size: 16px;
 }
 .inscription{
     color:#0065FC;
@@ -74,10 +75,10 @@ a{
     flex-wrap:wrap;
     max-width:70%;
     width:auto;
-    font-size:1.1em;
+    font-size:13px;
 }
 .desk h4{
-    font-size:1.3em;
+    font-size:13px;
     font-weight:bolder;
 }
 #loupe{
@@ -101,7 +102,7 @@ a{
     background-color: white;
     border:2px solid #F2F2F2;
     border-radius: 50px;
-    font-size:1.4em;
+    font-size:14px;
     font-weight:bold;
     padding-left:60px;
     width:110%;
@@ -134,8 +135,9 @@ a{
 }
 .recherche{
     border:2px solid #F2F2F2;
-    font-size: 1.3em;
+    font-size: 15px;
     font-weight:bold;
+    color:black;
     width:40%;
     padding-left:2%;
 }
@@ -146,7 +148,7 @@ a{
     border:none;
     padding:2%;
     width:auto;
-    font-size: 1.1em;
+    font-size: 13px;
 }
 #bouton2{
     display:none;
@@ -231,7 +233,7 @@ figcaption.fig3{
     width:200px;
     background-color:white;
     font-weight:bold;
-    font-size:1.4em;
+    font-size:16px;
     white-space:nowrap;
     padding:5%;
 
@@ -249,17 +251,30 @@ figcaption.fig3{
     border-radius:15px 0px 0px 15px;
 }
 .back3{
-    width:300px;
-    height:160px;
+    width:312px;
+    height:200px;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
 }
 .back4{
-    width:300px;
-    height:430px;
+    width:312px;
+    height:120px;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
 }
+.back5{
+    width:312px;
+    height:400px;
+    border-radius:15px 15px 0px 0px;
+    object-fit:cover;
+}
+.back6{
+    width:312px;
+    height:160px;
+    border-radius:15px 15px 0px 0px;
+    object-fit:cover;
+}
+
 .titresection1{
     display:none;
 }
@@ -270,13 +285,13 @@ figcaption.fig3{
     display:flex;
     flex-direction: row;
     color:#0065FC;
-    font-size:1em;
+    font-size:12px;
 }
 .pluspc h4{
     position:relative;
     margin-top:-5%;
     margin-left:2%;
-    font-size: 1.5em;
+    font-size: 17px;
     font-weight: bold;
     margin-bottom:10%;
 }
@@ -343,6 +358,9 @@ figure.element1{
     margin-top: 5%;
     margin-bottom:-3%;
 }
+h2#Activites{
+    margin-left:3%;
+}
 #conteneur4{  
     display:contents;
     display:flex;
@@ -360,7 +378,7 @@ figure.vieuxport{
     width:fit-content;
     box-shadow:15px 15px 15px 15px #F2F2F2;
     display:inline-block;
-    margin:0% 5% 2% 0%;
+    margin-left:0px;
     object-fit:cover;
 }
 figure.fortpomegues{
@@ -379,7 +397,6 @@ figure.parccalanques{
     width:fit-content;
     display:inline-block;
     padding:0px 0px 0px 0px;
-    margin:0% 5% 2% 5%;
     box-shadow:15px 15px 15px 15px #F2F2F2;
     object-fit:cover;
 }
@@ -398,8 +415,7 @@ figure.longchamp{
 .colonne1{
     display:flex;
     flex-direction: column;
-    width:300px;
-    height:500px;
+    width:310px;
     justify-content:space-between;
     align-items:center;
     align-content:space-between;
@@ -412,9 +428,8 @@ figure.longchamp{
 }
 .colonne2{
     display:flex;
-    width:300px;
-    height:500px;
     flex-direction: column;
+    width:310px;
     justify-content:space-between;
     align-items:center;
 }
@@ -425,13 +440,13 @@ figure.longchamp{
     vertical-align:baseline;
 }
 .prix{
-    font-size:1em;
+    font-size:12px;
 }
 ul{
     list-style-type:none;
 }
 ul.heb{
-    font-size:1em;
+    font-size:12px;
     display:flex;
     flex-wrap:nowrap;
     flex-direction:column;
@@ -441,7 +456,7 @@ ul.heb{
     padding:0px 0px 0px 0px;
 }
 ul.heb1{
-    font-size:1em;
+    font-size:12px;
     white-space:nowrap;
     display:flex;
     flex-wrap:nowrap;
@@ -456,7 +471,7 @@ ul.heb1{
     margin-top:8%;
 }
 li{
-    font-size:1.2em;
+    font-size:12px;
 }
 li.stars1{
     margin-top:20%;
@@ -464,13 +479,13 @@ li.stars1{
 }
 li.nom{
     font-weight:bold;
-    font-size:1.4em;
+    font-size:14px;
 }
 #footer{
     display:contents;
     max-width:150%;
     margin-top:3%;
-    font-size: 1.2em;
+    font-size: 12px;
     margin-left:0px;
     background-color:#F2F2F2;
 }

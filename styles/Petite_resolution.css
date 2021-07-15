@@ -14,11 +14,11 @@
     overflow-x:hidden;
 }
 h1{
-        font-size: 1.5em;
+        font-size: 20px;
         font-weight:bold;
     }
 h2{
-        font-size:2em;
+        font-size:22px;
         font-weight:bold;
     }
 .bouton:hover{
@@ -35,7 +35,7 @@ a{
         justify-content:space-between;
         align-content:space-between;
         align-items:stretch;
-        font-size:1.1em;
+        font-size:13px;
         margin: 5% 5% 5% 5%;
     }
     #filtres:last-child{
@@ -48,7 +48,7 @@ a{
         display:none;
     }
     h4.mobile{
-        font-size:1.2em;
+        font-size:14px;
         font-weight:bold;
     }
     #filtres i{
@@ -82,12 +82,13 @@ a{
         justify-content:stretch;
         align-items: stretch;
         align-content: stretch;
-        font-size: 1.2em;
+        font-size: 14px;
     }
     .inscription{
         color:#0065FC;
         font-weight:bolder;
         position:absolute;
+        margin-top:-8%;
         margin-left:80%;
     }
     .info i{
@@ -99,13 +100,13 @@ a{
     p.info{
         display:flex;
         margin-right:5%;
-        font-size:1.2em;
+        font-size:14px;
     }
     .bouton{
         background-color: white;
         border:2px solid #F2F2F2;
         border-radius: 50px;
-        font-size:1.4em;
+        font-size:16px;
         font-weight:bold;
         padding-left:60px;
         width:100%;
@@ -129,7 +130,7 @@ a{
         border-radius:15px 0px 0px 15px;
     }
     #Recherche{
-        font-size: 1.2em;
+        font-size: 14px;
         display:flex;
         flex-direction:column;
         align-items: center;
@@ -140,7 +141,7 @@ a{
     }
     .recherche{
         border:2px solid #F2F2F2;
-        font-size: 1.1em;
+        font-size: 13px;
         font-weight:bold;
         width:150%;
         padding-left:2%;
@@ -154,7 +155,7 @@ a{
         color:white;
         border:none;
         width:auto;
-        font-size: 1.5em;
+        font-size: 17px;
     }
     #bouton{
         display:none;
@@ -229,13 +230,13 @@ a{
         display:flex;
         flex-direction: row;
         color:#0065FC;
-        font-size:1em;
+        font-size:12px;
     }
     .pluspc{
         white-space: nowrap;
     }
     .pluspc h4{
-        font-size:1.5em;
+        font-size:17px;
         font-weight:bold;
 
     }
@@ -317,7 +318,21 @@ a{
         object-fit:cover;
     }
     .back4{
+        min-width:335px;
+        flex:auto;
+        height:150px;
+        border-radius:15px 15px 0px 0px;
+        object-fit:cover;
+    }
+    .back5{
         width:335px;
+        height:150px;
+        border-radius:15px 15px 0px 0px;
+        object-fit:cover;
+    }
+    .back6{
+        min-width:335px;
+        flex:auto;
         height:150px;
         border-radius:15px 15px 0px 0px;
         object-fit:cover;
@@ -370,7 +385,7 @@ a{
     }
     li.nom{
         font-weight:bold;
-        font-size:1.2em;
+        font-size:14px;
     }
     .titresection{
         display:none;
@@ -395,7 +410,7 @@ a{
             width:200px;
             background-color:white;
             font-weight:bold;
-            font-size:1.4em;
+            font-size:16px;
             padding:5%;
     }
     figure.vieuxport{
@@ -456,7 +471,7 @@ a{
         background-repeat:no-repeat;
         border:none;
         width:auto;
-        font-size: 0em;
+        font-size: 0px;
     }
     #bouton{
         display:none;
@@ -484,7 +499,7 @@ a{
         margin-top:8%;
     }
     li{
-        font-size:1.2em;
+        font-size:14px;
     }
     li.stars1{
         margin-top:20%;
