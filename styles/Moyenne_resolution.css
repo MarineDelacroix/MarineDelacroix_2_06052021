@@ -1,17 +1,4 @@
-@font-face {
-    font-family: "Raleway";
-    src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
-}
- body{
-        font-family: "Raleway";
-        
-    }
-    #bloc_page{
-        min-width:768px;
-        max-width:1024px;
-        width:auto;
-        margin:auto;
-    }
+@media all and (min-width:768px) and (max-width:1023px){  
 h1{
         font-size: 25px;
         font-weight:bold;
@@ -550,5 +537,5 @@ p{
 .grey{
     color:#F2F2F2;
 }
-
+}
 

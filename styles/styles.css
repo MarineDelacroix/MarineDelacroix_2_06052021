@@ -6,7 +6,7 @@ body{
     font-family: "Raleway";
 }
 #bloc_page{
-    width:1440px;
+    width:98%;
     margin:auto;
 }
 h1{
@@ -67,14 +67,13 @@ a{
 }
 
 #filtres{
-    display:inline-block;
     display:flex;
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
     flex-wrap:wrap;
-    max-width:70%;
     width:auto;
+    max-width:60%;
     font-size:13px;
 }
 .desk h4{
