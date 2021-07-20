@@ -1,3 +1,4 @@
+@media all and (min-width:1024px){    
 @font-face {
     font-family: "Raleway";
     src: url("Raleway/static/Raleway-Medium.ttf") format("truetype");
@@ -6,7 +7,7 @@ body{
     font-family: "Raleway";
 }
 #bloc_page{
-    width:98%;
+    width:95%;
     margin:auto;
 }
 h1{
@@ -159,7 +160,6 @@ a{
     padding:8px 12px 8px 12px;
 }
 #Hebergements{
-    width:90%;
     height:auto;
     margin:auto;
     display:flex;
@@ -172,7 +172,8 @@ a{
     flex-direction:row;
     justify-content:space-evenly;
     align-items: stretch;
-    width:95%;
+    margin-right:7%;
+    margin-left:7%;
     border:2px solid white;
 }
 article#conteneur2{
@@ -212,7 +213,7 @@ figure.element{
     max-width:25%;
     flex:0 0 auto;
     border:5px solid white;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     overflow:hidden;
     flex: auto;
 }
@@ -251,26 +252,33 @@ figcaption.fig3{
     border-radius:15px 0px 0px 15px;
 }
 .back3{
-    width:312px;
-    height:200px;
+    min-width:220px;
+    height:195px;
+    width:100%;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
 }
 .back4{
-    width:312px;
+    min-width:220px;
     height:120px;
+    width:100%;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
 }
 .back5{
-    width:312px;
+    min-width:220px;
     height:400px;
+    min-height:390px;
+    max-height:410px;
+    max-width:500px;
+    width:100%;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
 }
 .back6{
-    width:312px;
+    min-width:220px;
     height:160px;
+    width:100%;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
 }
@@ -297,11 +305,14 @@ figcaption.fig3{
 }
 article#conteneur3{
     flex-direction: column;
+    min-width:38%;
+    max-width:38%;
     display:flex;
     border:2px solid white;
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
 }
+
 #pop{
     max-width:80%;
     flex:0 0 auto;
@@ -330,7 +341,7 @@ article#conteneur3{
 }
 .logochart img{
     max-height:25px;
-    margin-left:30%;
+    margin-left:20%;
 }
 .logochart:nth-child(1){
     flex-wrap: nowrap;
@@ -339,19 +350,16 @@ h2#conteneur3{
     margin-left:30%;
 }
 figure.element1{
-    max-width:80%;
-    flex:0 0 auto;
-    display:flex;
+    
     flex-direction:row;
-    align-items:center;
+    width:100%;  
     background-color:white;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     border-radius:15px 15px 15px 15px;
 }
 .element1:nth-child(1){
     display:flex;
     align-items:flex-start;
-    min-width:100%;
 }
 #Activites{
     margin-top: 5%;
@@ -361,60 +369,72 @@ h2#Activites{
     margin-left:3%;
 }
 #conteneur4{  
-    display:contents;
     display:flex;
-    width:100%;
-    justify-content: center;
+    max-width:100%;
     align-content:center;
-    align-items:center;
     margin-top:5%;
 }
+
 #conteneur4 figure{
     border-radius:15px 15px 15px 15px;
 }
 
 figure.vieuxport{
     width:fit-content;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     display:inline-block;
+    margin:0 auto;
     margin-left:0px;
     object-fit:cover;
 }
 figure.fortpomegues{
     width:fit-content;
     display:inline-block;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    margin:0 auto;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     object-fit:cover;
 }
 figure.ilesfrioul{
     width:fit-content;
     display:inline-block;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    margin:0 auto;
+    margin-left:10%;
+    margin-right:10%;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     object-fit:cover;
 }
 figure.parccalanques{
     width:fit-content;
     display:inline-block;
+    margin:0 auto;
+    margin-right:0%;
     padding:0px 0px 0px 0px;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     object-fit:cover;
 }
 figure.notredame{
     width:fit-content;
     display:inline-block;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    margin:0 auto;
+    margin-left:10%;
+    margin-bottom:10%;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     object-fit:cover;
 }
 figure.longchamp{
     width:fit-content;
     display:inline-block;
-    box-shadow:15px 15px 15px 15px #F2F2F2;
+    margin:0 auto;
+    margin-left:10%;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
     object-fit:cover;
 }
 .colonne1{
     display:flex;
     flex-direction: column;
-    width:310px;
     justify-content:space-between;
     align-items:center;
     align-content:space-between;
@@ -428,9 +448,9 @@ figure.longchamp{
 .colonne2{
     display:flex;
     flex-direction: column;
-    width:310px;
     justify-content:space-between;
     align-items:center;
+    align-content:space-between;
 }
 .name{
     display:flex;
@@ -456,9 +476,8 @@ ul.heb{
 }
 ul.heb1{
     font-size:12px;
-    white-space:nowrap;
     display:flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     flex-direction:column;
     justify-content:flex-start;
     align-content:space-evenly;
@@ -488,6 +507,9 @@ li.nom{
     margin-left:0px;
     background-color:#F2F2F2;
 }
+#footer ul{
+    padding:0px;
+}
 h4{
     font-weight: bold;
 }
@@ -507,7 +529,6 @@ h4{
     display:none;
 }
 .cliquable{
-    width:max-content;
     height:100%;
 }
 .none{
@@ -522,4 +543,7 @@ h4{
 .grey{
     color:#F2F2F2;
 }
-
+.none2{
+    display:none;
+}
+}
