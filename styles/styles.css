@@ -7,7 +7,8 @@ body{
     font-family: "Raleway";
 }
 #bloc_page{
-    width:95%;
+    width:98%;
+    max-width:1440px;
     margin:auto;
 }
 h1{
@@ -234,6 +235,7 @@ figcaption.fig3{
     background-color:white;
     font-weight:bold;
     font-size:16px;
+    height:fit-content;
     white-space:nowrap;
     padding:5%;
 
@@ -253,7 +255,7 @@ figcaption.fig3{
 }
 .back3{
     min-width:220px;
-    height:195px;
+    height:185px;
     width:100%;
     border-radius:15px 15px 0px 0px;
     object-fit:cover;
@@ -267,7 +269,7 @@ figcaption.fig3{
 }
 .back5{
     min-width:220px;
-    height:400px;
+    height:425px;
     min-height:390px;
     max-height:410px;
     max-width:500px;
@@ -377,6 +379,7 @@ h2#Activites{
 
 #conteneur4 figure{
     border-radius:15px 15px 15px 15px;
+
 }
 
 figure.vieuxport{
@@ -502,16 +505,20 @@ li.nom{
 #footer{
     display:contents;
     max-width:150%;
-    margin-top:3%;
-    font-size: 12px;
-    margin-left:0px;
+    margin-top:10%;
+    font-size: 14px;
     background-color:#F2F2F2;
+    margin-left:0px;
 }
 #footer ul{
-    padding:0px;
+    padding:10px;
+    font-size:15px;
 }
 h4{
     font-weight: bold;
+}
+footer{
+    background-color:#F2F2F2;
 }
 .footer{
     display:flex;
@@ -524,6 +531,9 @@ h4{
 }
 .footer a:hover{
     text-decoration: none;
+}
+#conteneur33{
+    margin-bottom:5%;
 }
 #conteneur4 h2{
     display:none;
