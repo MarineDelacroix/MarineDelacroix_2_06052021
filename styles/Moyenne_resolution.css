@@ -4,7 +4,6 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    overflow:hidden;
 }  
 #bloc_page{
     width:90%;
