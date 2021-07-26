@@ -223,6 +223,7 @@ figcaption{
 }
 figcaption.s2{
     width:max-content;
+    border-radius:15px;
 }
 figcaption.fig3{
     width:200px;
@@ -230,6 +231,7 @@ figcaption.fig3{
     font-weight:bold;
     font-size:16px;
     height:fit-content;
+    border-radius:15px;
     height:-moz-fit-content;
     white-space:nowrap;
     padding:5%;
