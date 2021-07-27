@@ -276,7 +276,7 @@ a{
     figure.element{
         border-radius:15px 15px 15px 15px;
         min-width:150px;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
         width:max-content;
         border:5px solid white;
         flex:auto;
@@ -370,8 +370,8 @@ a{
          align-items:flex-start;
          background-color:white;
          flex:auto;
-         box-shadow:15px 15px 15px 15px #F2F2F2;
-         border-radius:15px 15px 15px 15px;
+         box-shadow:5px 5px 5px 5px #F2F2F2;
+         border-radius:5px 5px 5px 5px;
     }
     .element1:nth-child(1){
         display:flex;
@@ -412,37 +412,37 @@ a{
         flex:auto;
         width:fit-content;
         object-fit:cover;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     figure.fortpomegues{
         flex:auto;
         object-fit:cover;
         width:fit-content;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     figure.ilesfrioul{
         flex:auto;
         object-fit:cover;
         width:fit-content;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     figure.parccalanques{
         flex:auto;
         object-fit:cover;
         width:fit-content;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     figure.notredame{
         flex:auto;
         object-fit:cover;
         width:fit-content;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     figure.longchamp{
         flex:auto;
         object-fit:cover;
         width:fit-content;
-        box-shadow:15px 15px 15px 15px #F2F2F2;
+        box-shadow:5px 5px 5px 5px #F2F2F2;
     }
     article#conteneur4{
         display:contents;
