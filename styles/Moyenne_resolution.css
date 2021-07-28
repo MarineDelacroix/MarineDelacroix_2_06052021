@@ -452,12 +452,14 @@ a{
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
+        margin-left:0;
     }
     figure.ilesfrioul{
         width:fit-content;
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
+        margin-right:0;
     }
     figure.parccalanques{
         width:fit-content;
@@ -471,12 +473,14 @@ a{
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
+        margin-left:0;
     }
     figure.longchamp{
         width:fit-content;
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
+        margin-right:0;
     }
     .colonne1{
         display:flex;
