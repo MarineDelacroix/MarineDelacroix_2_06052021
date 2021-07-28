@@ -1,4 +1,4 @@
-@media all and (min-width:768px) and (max-width:1024px){ 
+@media all and (min-width:768px) and (max-width:1023px){ 
 body{
     font-family:"Raleway";
     display:flex;
@@ -9,7 +9,6 @@ body{
     width:90%;
     max-width:1020px;
     margin:auto;
-    overflow-x:hidden;
 }
 h1{
         font-size: 25px;
@@ -452,14 +451,12 @@ a{
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
-        margin-left:0;
     }
     figure.ilesfrioul{
         width:fit-content;
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
-        margin-right:0;
     }
     figure.parccalanques{
         width:fit-content;
@@ -473,14 +470,12 @@ a{
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
-        margin-left:0;
     }
     figure.longchamp{
         width:fit-content;
         display:inline-block;
         box-shadow:5px 5px 5px 5px #F2F2F2;
         object-fit:cover;
-        margin-right:0;
     }
     .colonne1{
         display:flex;
